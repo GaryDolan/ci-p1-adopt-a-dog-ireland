@@ -41,7 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 1rem 0.5rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 /* Horizontal rule */
@@ -94,3 +94,29 @@ header {
 {
     border-bottom: 0.2rem solid #1C345E; 
 }
+
+/************************** HERO IMAGE ************************/
+.hero-image-container {
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-image {
+    height: 37.5rem;
+    width: 100%;
+    background:url(../images/hero-image.webp) no-repeat center center;
+    background-color: beige; /*added incase image fails to load*/
+
+    animation: hero-image-zoom 5s forwards;
+ }
+
+ /* creates zoom for hero image */
+ @keyframes hero-image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+ }
