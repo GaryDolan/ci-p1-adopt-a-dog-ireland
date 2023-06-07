@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Raleway:wght@600;700;800;900&display=swap');
 
-/************************************************** GLOBAL RULES **************************************************/
+/*********************** GLOBAL  ****************************/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,12 +8,14 @@
     border: none;
 }
 
+/* body */
 body{
     font-family: Lora, sans-serif;
     font-weight: 500;
     color: #1C345E;
 }
 
+/* Headings */
 h1, h2 {
     font-family: Raleway, sans-serif;
     color: #1C345E;
@@ -23,16 +25,29 @@ h1 {
     font-weight: 700;  
 }
 
+/* Links */
 a {
     text-decoration: none;
+    color: #1C345E;
 }
 
-/***************************************************** HEADER *****************************************************/
+/* list items */
+li {
+    list-style: none;
+}
+
+/*************************** HEADER *************************/
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 1rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+}
+
+/* Horizontal rule */
+.header-hr {
+    border: none;
+    border-top: 0.2rem solid #1C345E;
 }
 
 /* Logo */
@@ -52,9 +67,30 @@ header {
     align-items: center;
 } 
 
-.logo-content > h2 {
+.logo-content h2 {
     font-weight: 300;
     font-size: 1rem;
     margin-top: 0.15rem;
 } 
 
+/* navigation menu */
+.nav-menu {
+    margin-right: 1.5rem;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 0 1.5rem;
+    font-size: 1.35rem;
+}
+
+.nav-menu a:hover {
+    border-bottom: 0.2rem solid;
+    border-color: rgba(28, 52, 94, .7);;
+    color: rgba(28, 52, 94, .7);
+}
+
+.active-page
+{
+    border-bottom: 0.2rem solid #1C345E; 
+}
