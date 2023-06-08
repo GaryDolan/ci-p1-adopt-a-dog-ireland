@@ -120,3 +120,60 @@ header {
         transform: scale(1.1);
     }
  }
+
+ /********************* HOW IT WORKS SECTION *******************/
+
+ /* overall section */
+ .how-it-works {
+    height: 118.75rem;
+    background-color: red;
+ } 
+
+ .how-it-works h1 {
+    padding: 1rem;
+    background-color: rgb(119, 0, 255);
+    text-align: center;
+ }
+
+ /* content excluding section heading */
+ .how-it-works-content {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ /* 3 divs of the content section */
+ .how-it-works-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 1rem 0 1rem 0;
+ }
+
+ .content-left {    /*remove right mid and left, just here to see seperate colors*/
+    background-color: aqua;
+   
+ }
+
+ .content-middle {
+    background-color: blanchedalmond;
+ }
+
+ .content-right {       
+    background-color: orange;
+ }
+
+ /* icon background and p padding for each div */
+ .icon-container {
+    width: 5.75rem;
+    height: 5.75rem;
+    background-color: #E1C418;
+    border-radius: 50%;
+    overflow: hidden;
+ }
+
+ .top-para {
+    padding-bottom: 2rem;
+ }
+
+ 
