@@ -165,11 +165,17 @@ header {
 
  /* icon background and p padding for each div */
  .icon-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     width: 5.75rem;
     height: 5.75rem;
     background-color: #E1C418;
     border-radius: 50%;
     overflow: hidden;
+    text-align: center;
+    /* padding: 1.5rem; */
+    font-size: 2rem;
  }
 
  .top-para {
