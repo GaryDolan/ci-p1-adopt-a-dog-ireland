@@ -42,6 +42,13 @@ li {
     list-style: none;
 }
 
+.section-h1 {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
 /*************************** HEADER *************************/
 header {
     display: flex;
@@ -129,14 +136,6 @@ header {
 
  /********************* HOW IT WORKS SECTION *******************/
 
- /* overall section */
- .how-it-works h1 {
-    padding: 1rem;
-    text-align: center;
-    font-size: 2rem;
-    margin: 2rem 0 2rem 0;
- }
-
 /* section content excluding heading */
  .how-it-works-content {
     display: flex;
@@ -161,6 +160,9 @@ header {
  .browse, .apply, .discuss {
     margin-bottom: 2rem;
  }
+ .meetdog, .adopt, .enjoy {
+    margin-bottom: 4rem;
+ }
 
  /* font icon container and p padding for each div */
  .icon-container {
@@ -183,4 +185,24 @@ header {
 
 /******************** BROWSE OUR DOGS SECTION ******************/
 
- 
+/* section content excluding heading */
+.browse-dogs-content{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .browse-dogs-content div {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 0 0 8rem 0;
+ }
+
+ .dog {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .dog img {
+    border: 0.25rem solid #1C345E;
+ }
