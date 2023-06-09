@@ -288,6 +288,19 @@ footer p {
 
 }
 
+/* 1300px */
+@media screen and (max-width:81.25em) {
+    /* drop the number of info div's per row from 3 to 2 */
+    .how-it-works-content > div {
+        width: 50%;
+     }
+
+    /* drop the number of dogs div's per row from 4 to 3 */
+    .browse-dogs-content div {
+        width: 33%;
+     }
+}
+
 
 
 
