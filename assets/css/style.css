@@ -142,7 +142,7 @@ header {
 .hero-image {
     height: 37.5rem;
     width: 100%;
-    background:url(../images/hero-image.webp) no-repeat center center;
+    background:url(../images/hero-image-2700x600.webp) no-repeat center center;
     background-color: beige; /*added incase image fails to load*/
 
     animation: hero-image-zoom 5s forwards;
@@ -219,7 +219,7 @@ header {
     display: flex;
     align-items: center;
     width: 20%;
-    margin: 0 0 8rem 0;
+    margin: 0 0 4rem 0;
  }
 
  .dog {
@@ -229,7 +229,7 @@ header {
 
  .dog img {
     border-radius: 50%;
-    margin-bottom: 1.5rem;;
+    margin-bottom: 1.5rem;
  }
 
  .dog img:hover {
@@ -271,3 +271,24 @@ footer p {
 .social-networks i:hover {
     color: rgba(225, 196, 24, 0.5);
 }
+
+/************************* MEDIA QUERIES ***********************/
+/* 1600px */
+@media screen and (max-width:100em) {
+    /* allow some more space to be used for p */
+    .how-it-works-content p {
+    width: 80%;
+    }
+    
+    /* drop the number of dogs div's per row from 5 to 4 */
+    .browse-dogs-content div {
+        width: 25%;
+     }
+
+
+}
+
+
+
+
+    
