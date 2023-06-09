@@ -389,7 +389,40 @@ footer p {
     }
 }
 
+/* 500x */
+@media screen and (max-width:37.5em) {
+    /* resize logo text */
+    .logo-content h1 {
+        font-size: 1.5rem;
+    } 
 
+    /* remove tag line */
+    .logo-content h2 {
+        display: none;
+    } 
+    
+    /* reorganise nav bar */
+    .nav-menu li {
+        display: block;
+        text-align: center;
+    }
+    
+    /* increase nav li top and bottom padding */
+    .nav-menu li {
+        padding: 0.5rem 0.25rem;
+    }
+
+    /* reduce the dog image sizes */
+    .dog img {
+        width: 16.875rem;
+        height: 16.875rem;
+     }
+
+     /* reduce padding on social media icons */
+    .social-networks li {
+        padding: 0  0.05rem;
+    }
+}
 
 
     
