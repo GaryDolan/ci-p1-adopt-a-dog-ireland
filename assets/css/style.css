@@ -330,6 +330,33 @@ footer p {
     
 }
 
+/* 850px */
+@media screen and (max-width:53.125em) {
+    /* shift hero image right */
+    .hero-image {
+        background-position: calc(100% + 65rem) center;
+     } 
+    
+}
+
+/* 700x */
+@media screen and (max-width:43.75em) {
+    /* reduce nav padding */
+    .nav-menu li {
+        padding: 0 0.5rem;
+    }
+    
+    /* shift hero image right */
+    .hero-image {
+        background-position: calc(100% + 70rem) center;
+     }
+
+     /* drop the number of dogs div's per row from 2 to 1 */
+     .browse-dogs-content div {
+        width: 100%;
+     }
+}
+
 
 
 
