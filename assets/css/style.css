@@ -14,7 +14,7 @@ html {
     border: none;
 }
 
-/* body */
+/* Body */
 body{
     font-family: Lora, sans-serif;
     font-weight: 500;
@@ -31,22 +31,42 @@ h1 {
     font-weight: 700;  
 }
 
+.section-h1 {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
 /* Links */
 a {
     text-decoration: none;
     color: #1C345E;
 }
 
-/* list items */
+/* List items */
 li {
     list-style: none;
 }
 
-.section-h1 {
-    padding: 1rem;
+/* Buttons */
+button {
+    width: 13rem ;
+    height: 3rem;
+    border-radius: 1.5rem/1.5rem;
+    color: white;
+    background-color: #B85C00;
+    font: 700 1.5rem Raleway, sans-serif;
+
+    align-items: center;
     text-align: center;
-    font-size: 2rem;
-    margin: 2rem 0 2rem 0;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #B85C00;
+    background-color: white;
+    border: 0.2rem solid #B85C00;
 }
 
 /*************************** HEADER *************************/
@@ -204,5 +224,11 @@ header {
  }
 
  .dog img {
-    border: 0.25rem solid #1C345E;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;;
  }
+
+ .dog img:hover {
+    background-color: rgba(28, 52, 94, .7);
+ }
+
