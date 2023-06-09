@@ -36,6 +36,9 @@ h1 {
     text-align: center;
     font-size: 2rem;
     margin: 2rem 0 2rem 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25rem;
+    text-underline-offset: 0.25rem;
 }
 
 /* Links */
