@@ -357,6 +357,38 @@ footer p {
      }
 }
 
+/* 600x */
+@media screen and (max-width:37.5em) {
+    /* remove margin from nav */
+    header {
+        margin: 1rem 0 1rem 0;
+    }
+    /* remove margin from right nav menu */
+    .nav-menu {
+        margin-right: 0;
+    }
+    
+    /* reduce nav li padding */
+    .nav-menu li {
+        padding: 0 0.25rem;
+    }
+
+    /* swap out hero image */
+    .hero-image {
+        background:url(../images/hero-image-small.webp) no-repeat center center;
+    }
+
+    /* drop the number of info div's per row from 2 to 1 */
+    .how-it-works-content > div {
+        width: 100%;
+     }
+
+     /* reduce padding on social media icons */
+    .social-networks li {
+        padding: 0  0.5rem;
+    }
+}
+
 
 
 
