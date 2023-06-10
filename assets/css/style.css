@@ -38,7 +38,7 @@ h1 {
     margin: 2rem 0 2rem 0;
     text-decoration: underline;
     text-decoration-thickness: 0.25rem;
-    text-underline-offset: 0.25rem;
+    text-underline-offset: 0.5rem;
 }
 
 /* Links */
@@ -61,7 +61,6 @@ button {
     color: white;
     background-color: #B85C00;
     font: 700 1.5rem Raleway, sans-serif;
-
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -132,7 +131,7 @@ header {
     border-bottom: 0.2rem solid #1C345E; 
 }
 
-/************************** HERO IMAGE ************************/
+/*********************** HOME (HERO IMAGE) *********************/
 .hero-image-container {
     height: 37.5rem;
     width: 100%;
@@ -148,48 +147,48 @@ header {
     animation: hero-image-zoom 5s forwards;
  }
 
- /* creates zoom for hero image */
- @keyframes hero-image-zoom {
+/* creates zoom for hero image */
+@keyframes hero-image-zoom {
     from{
         transform: scale(1);
     }
     to{
         transform: scale(1.1);
     }
- }
+}
 
- /********************* HOW IT WORKS SECTION *******************/
+ /****************** HOME (HOW IT WORKS SECTION) ****************/
 
 /* section content excluding heading */
- .how-it-works-content {
+.how-it-works-content {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
- .how-it-works-content > div {
+.how-it-works-content > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 33%;
     padding: 1rem 0 1rem 0;
- }
+}
 
- .how-it-works-content p {
+.how-it-works-content p {
     font-size: 1.35rem ;
     text-align: center;
     line-height: 2rem;
     width: 60%;
- }
+}
 
- .browse, .apply, .discuss {
+.browse, .apply, .discuss {
     margin-bottom: 2rem;
- }
- .meet-dog, .adopt, .enjoy {
+}
+.meet-dog, .adopt, .enjoy {
     margin-bottom: 4rem;
- }
+}
 
- /* font icon container and p padding for each div */
- .icon-container {
+/* font icon container and p padding for each div */
+.icon-container {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -201,40 +200,36 @@ header {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
- }
+}
 
- .hidden-alt-text {
+.hidden-alt-text {
     display: none;
- }
+}
 
-/******************** BROWSE OUR DOGS SECTION ******************/
+/***************** HOME (BROWSE OUR DOGS SECTION) ***************/
 
 /* section content excluding heading */
 .browse-dogs-content{
     display: flex;
     flex-wrap: wrap;
- }
+}
 
- .browse-dogs-content div {
+.browse-dogs-content div {
     display: flex;
     align-items: center;
     width: 20%;
     margin: 0 0 4rem 0;
- }
+}
 
- .dog {
+.dog {
     display: flex;
     flex-direction: column;
- }
+}
 
- .dog img {
+.dog img {
     border-radius: 50%;
     margin-bottom: 1.5rem;
- }
-
- .dog img:hover {
-    background-color: rgba(28, 52, 94, .7);
- }
+}
 
  /**************************** FOOTER **************************/
 
@@ -275,6 +270,8 @@ footer p {
 /************************* MEDIA QUERIES ***********************/
 /* 1600px */
 @media screen and (max-width:100em) {
+
+/* HOME PAGE */
     /* allow some more space to be used for p */
     .how-it-works-content p {
     width: 80%;
@@ -284,12 +281,13 @@ footer p {
     .browse-dogs-content div {
         width: 25%;
      }
-
-
 }
 
 /* 1300px */
+
 @media screen and (max-width:81.25em) {
+
+/* HOME PAGE */
     /* drop the number of info div's per row from 3 to 2 */
     .how-it-works-content > div {
         width: 50%;
@@ -303,6 +301,8 @@ footer p {
 
 /* 1100px */
 @media screen and (max-width:68.75em) {
+
+/* HOME PAGE */
     /* drop nav bar below logo and center */
     header {
         flex-direction: column;
@@ -318,29 +318,32 @@ footer p {
     .hero-image {
         background-position: calc(100% + 60rem) center;
      }
-
 }
 
 /* 992px */
 @media screen and (max-width:62em) {
+
+/* HOME PAGE */
     /* drop the number of dogs div's per row from 3 to 2 */
     .browse-dogs-content div {
         width: 50%;
      }
-    
 }
 
 /* 850px */
 @media screen and (max-width:53.125em) {
+
+/* HOME PAGE */
     /* shift hero image right */
     .hero-image {
         background-position: calc(100% + 65rem) center;
      } 
-    
 }
 
 /* 700px */
 @media screen and (max-width:43.75em) {
+
+/* HOME PAGE */
     /* reduce nav padding */
     .nav-menu li {
         padding: 0 0.5rem;
@@ -359,6 +362,8 @@ footer p {
 
 /* 600px */
 @media screen and (max-width:37.5em) {
+
+/* HOME PAGE */
     /* remove margin from nav */
     header {
         margin: 1rem 0 1rem 0;
@@ -391,6 +396,8 @@ footer p {
 
 /* 500px */
 @media screen and (max-width:31.25em) {
+
+/* HOME PAGE */
     /* resize logo text */
     .logo-content h1 {
         font-size: 1.5rem;
