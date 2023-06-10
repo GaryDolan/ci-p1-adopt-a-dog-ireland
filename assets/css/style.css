@@ -242,12 +242,60 @@ header {
     background-color: rgba(28, 52, 94, .1);
     text-decoration: none;
 }
-
+/* profile surrounding container */
 .profile-container {
     display: flex;
     flex-direction: row;
     overflow: hidden;
 }
+
+/* Profile content  */
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    min-height: 45.7rem;
+}
+
+.profile-content table {
+    width: 90%;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+    overflow-x: auto;
+    table-layout: fixed;
+}
+
+.profile-content table tr {
+    height: 3.5rem;
+}
+
+.profile-content table th, td {
+    text-align: left;
+}
+
+.profile-content table th {
+    font-weight: 800;
+}
+
+.profile-content table td {
+    font-weight: 300;
+}
+
+.profile-content p {
+    width:90%;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.profile-content button {
+    width: 90% ;
+    height: 3rem;
+    margin: 2rem 0 2rem 0;
+}
+
 footer {
     display: flex;
     flex-direction: column;
