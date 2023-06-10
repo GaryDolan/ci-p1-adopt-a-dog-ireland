@@ -377,6 +377,22 @@ footer p {
     .browse-dogs-content div {
         width: 33%;
      }
+
+/* PROFILE PAGE */
+     /* change to column layout */
+     .profile-container {
+        flex-direction: column;
+     }
+
+     /* allow full page width to be used */
+     .profile-image {
+        width: 100%;
+        margin-top: 2rem;
+     }
+
+     .profile-content {
+        width: 100%;
+     }
 }
 
 /* 1100px */
