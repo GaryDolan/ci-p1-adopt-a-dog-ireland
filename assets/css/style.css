@@ -296,6 +296,23 @@ header {
     margin: 2rem 0 2rem 0;
 }
 
+/* Profile image */
+.profile-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:50%;
+    height: auto; 
+}
+
+.profile-image img {
+    width:100%;
+    height: auto;
+    max-width: 40rem;
+    border-radius: 5%;
+}
+
 footer {
     display: flex;
     flex-direction: column;
