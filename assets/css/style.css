@@ -488,6 +488,12 @@ footer p {
     .social-networks li {
         padding: 0  0.5rem;
     }
+
+/* PROFILE PAGE */
+    .profile-content p {
+        text-align: left;
+    }   
+
 }
 
 /* 500px */
