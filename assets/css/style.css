@@ -339,7 +339,7 @@ footer p {
     
 }
 
-/* 700x */
+/* 700px */
 @media screen and (max-width:43.75em) {
     /* reduce nav padding */
     .nav-menu li {
@@ -357,7 +357,7 @@ footer p {
      }
 }
 
-/* 600x */
+/* 600px */
 @media screen and (max-width:37.5em) {
     /* remove margin from nav */
     header {
@@ -389,8 +389,8 @@ footer p {
     }
 }
 
-/* 500x */
-@media screen and (max-width:37.5em) {
+/* 500px */
+@media screen and (max-width:31.25em) {
     /* resize logo text */
     .logo-content h1 {
         font-size: 1.5rem;
