@@ -232,10 +232,6 @@ header {
 }
 
 /************************* DOG PROFILE  ***********************/
- /* Profile image */
-
-
-/**************************** FOOTER **************************/
 .profile-h1 {
     font-size: 5rem;
     margin: 0;
@@ -258,10 +254,24 @@ header {
     min-height: 45.7rem;
 }
 
+.arrow-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 0.55rem 0 0.55rem;
+}
+
+.arrow-buttons button {
+    width: 7rem;
+    height: 2rem;
+    background-color: white;
+    color:#1C345E
+}
+
 .profile-content table {
     width: 90%;
     font-size: 1.5rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 0rem 0 1.5rem 0;
     overflow-x: auto;
     table-layout: fixed;
 }
@@ -293,7 +303,7 @@ header {
 .profile-content button {
     width: 90% ;
     height: 3rem;
-    margin: 2rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 /* Profile image */
@@ -319,7 +329,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 9.55rem;
+    height: 7.05rem;
     background-color: #1C345E;
 }
 
@@ -331,7 +341,7 @@ footer p {
 
 /* social media networks */
 .social-networks {
-    margin-bottom: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .social-networks li {
