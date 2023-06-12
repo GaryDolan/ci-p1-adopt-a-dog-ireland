@@ -50,52 +50,72 @@
 
 <!-- Main webpage content -->
     <main>
-        <section class="form-section">
-            <form action="https://formdump.codeinstitute.net/" method="POST" class="adoption-form">    
-                <h1>Apply to Adopt a Dog</h1>
-                <p>Please fill out the form below and we will call you for a chat</p>
+        <div class="form-main-container">
+            <section class="form-section">
+                <form action="https://formdump.codeinstitute.net/" method="POST" class="adoption-form">    
+                    <h1>Apply to Adopt a Dog</h1>
+                    <p>Please fill out the form below and we will call you for a chat</p>
 
-                <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" placeholder="e.g., John" pattern="[A-Za-z]+" title="Please enter a valid first name (letters only)" required>
-                <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" placeholder="e.g., Doe" pattern="[A-Za-z]+" title="Please enter a valid last name (letters only)" required>
-                <label for="email">Email Address</label>
-                <input id="email" name="email_address" type="email" placeholder="e.g., johndoe@gmail.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address" required>
-                <label for="phone">Mobile Number</label>
-                <input id="phone" name="mobile_number" type="tel" placeholder="e.g., 123 456 7899" pattern="[0-9]{3} ?[0-9]{3} ?[0-9]{4}" title="Please enter a valid mobile number in the format XXX XXX XXXX" required>
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" placeholder="e.g., John" pattern="[A-Za-z]+" title="Please enter a valid first name (letters only)" class="input-field" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" placeholder="e.g., Doe" pattern="[A-Za-z]+" title="Please enter a valid last name (letters only)" class="input-field" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email_address" type="email" placeholder="e.g., johndoe@gmail.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address" class="input-field" required>
+                    
+                    <label for="phone">Mobile Number</label>
+                    <input id="phone" name="mobile_number" type="tel" placeholder="e.g., 123 456 7899" pattern="[0-9]{3} ?[0-9]{3} ?[0-9]{4}" title="Please enter a valid mobile number in the format XXX XXX XXXX" class="input-field" required>
 
-                <label for="dog-selection">Which dog would you like to adopt?</label>
-                <select id="dog-selection" name="dog-selection">
-                    <option value="max">Max</option>
-                    <option value="hercules">Hercules</option>
-                    <option value="charlie">Charlie</option>
-                    <option value="daisy">Daisy</option>
-                    <option value="lucy">Lucy</option>
-                    <option value="cooper">Cooper</option>
-                    <option value="lily">Lily</option>
-                    <option value="bruno">Bruno</option>
-                    <option value="toby">Toby</option>
-                    <option value="hugo">Hugo</option>
-                </select>
-                
-                <fieldset>
-                    <legend>Preferred contact time?</legend>
+                    <label for="dog-selection">Which dog would you like to adopt?</label>
+                    <br>
+                    <select id="dog-selection" name="dog-selection" class="dog-selection-dropdown input-field">
+                        <option value="max">Max</option>
+                        <option value="hercules">Hercules</option>
+                        <option value="charlie">Charlie</option>
+                        <option value="daisy">Daisy</option>
+                        <option value="lucy">Lucy</option>
+                        <option value="cooper">Cooper</option>
+                        <option value="lily">Lily</option>
+                        <option value="bruno">Bruno</option>
+                        <option value="toby">Toby</option>
+                        <option value="hugo">Hugo</option>
+                    </select>
+                    
+                    <fieldset class="preferred-time">
+                        <!-- placed in div to seperate from boredr -->
+                        <div>
+                            <legend>Preferred contact time?</legend>
+                        </div>
 
-                    <label for="nine-eleven">9am-11am</label>
-                    <input id="nine-eleven" name="preferred-time" type="radio" value="nine-eleven" required>
-                    <label for="eleven-one">11am-1pm</label>
-                    <input id="eleven-one" name="preferred-time" type="radio" value="eleven-one" required>
-                    <label for="one-three">1pm-3pm</label>
-                    <input id="one-three" name="preferred-time" type="radio" value="one-three" required>
-                    <label for="three-five">3pm-5pm</label>
-                    <input id="three-five" name="preferred-time" type="radio" value="three-five" required>
-                </fieldset>
+                        <div>
+                            <label for="nine-eleven">9 am - 11 am</label>
+                            <input id="nine-eleven" name="preferred-time" type="radio" value="nine-eleven" required>
+                        </div> 
+                        <div>
+                            <label for="eleven-one">11 am - 1 pm</label>
+                            <input id="eleven-one" name="preferred-time" type="radio" value="eleven-one" required>
+                        </div>  
+                        <div>
+                            <label for="one-three">1 pm - 3 pm</label>
+                            <input id="one-three" name="preferred-time" type="radio" value="one-three" required>
+                        </div>
+                        <div> 
+                            <label for="three-five">3 pm - 5 pm</label>
+                            <input id="three-five" name="preferred-time" type="radio" value="three-five" required>
+                        </div>
+                    </fieldset>
 
-                <input id="submit" name="submit" type="submit" value="Apply" required>
-            </form>
-        </section>
-        
-        <section class="form-image-section"></section>    
+                    <div class="form-button-container">
+                        <input id="submit" name="submit" type="submit" value="Apply" class="form-button" required >
+                    </div>
+
+                </form>
+            </section>
+
+            <section class="form-image-section"></section>
+        </div>    
     </main>
 
 <!-- Footer section -->
