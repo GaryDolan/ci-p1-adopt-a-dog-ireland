@@ -341,8 +341,8 @@ header {
 
 /* actual form itself */
 .adoption-form {
-    width: 70%;
-    padding: 2.5%;
+    width: 90%;
+    padding: 1rem;
     border:0.2em solid #1C345E;
     background-color: rgba(28, 52, 94, .1);
     font-size: 1.2rem;
@@ -442,13 +442,20 @@ header {
     border: 0.2rem solid #B85C00;
 }
 
-/* image section of the page */
-.form-image-section {
 
+/* image section of the page */
+.form-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
-    background-color: red;
 }
 
+.form-image {
+    width: 100%;
+    height: 56.2rem;
+    background: url(../images/form-image.webp) center center /  cover no-repeat, beige;
+}
 
  /**************************** FOOTER **************************/
 footer {
