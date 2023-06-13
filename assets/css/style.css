@@ -519,9 +519,10 @@ header {
 .team-content {
     display:flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
+    width: 100%;
     padding: 0 1rem 1rem 1rem;
-    margin: 1rem 0 3.5rem 0;
+    margin: 1rem 0 3.5rem 0;  
 }
 
 
@@ -529,7 +530,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 80%;
     margin-top: 1rem;
 }
 
@@ -586,7 +587,7 @@ header {
     display: flex;  
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     margin: 1rem 0 1rem 0;
     border: 0.25rem  solid #1C345E;
 }
@@ -598,22 +599,16 @@ header {
 
 .our-details-info {
     width: 30%;
-    margin-left: 4rem;
 }
 
-.our-details-info h2 {
-    margin-bottom: 1rem;
-    text-underline-offset: 0.4rem;
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 .our-details-info p {
     line-height: 2rem;
 }
-.our-details-info h1 {
-    text-align: left;
-}
-
-
 
  /**************************** FOOTER **************************/
 footer {
