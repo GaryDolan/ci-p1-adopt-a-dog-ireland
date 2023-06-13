@@ -22,7 +22,7 @@ body{
 }
 
 /* Headings */
-h1, h2 {
+h1, h2, h3 {
     font-family: Raleway, sans-serif;
     color: #1C345E;
 }
@@ -460,6 +460,150 @@ header {
     height: 56.2rem;
     background: url(../images/form-image.webp) center center /  cover no-repeat, beige;
 }
+
+/*************************** ABOUT US *************************/
+/* Overall page rules (-header and footer) */
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem
+}
+
+.about-us-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25rem;
+    text-underline-offset: 0.2rem;
+}
+
+.about-us-container h2 {
+    margin-bottom: 0.5rem;
+}
+
+.about-us-container p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* about us section */
+.about-us {
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.about-us p {
+    margin-bottom: 1rem;
+}
+
+/* meet the team section */
+.meet-the-team {
+    display: flex;
+    flex-direction: row;
+}
+
+#team-h1{       /*needed to used id to take precedence*/
+    margin: 0;
+}
+
+/* left side of page with images and text */
+.team-content {
+    width: 50%;
+    padding: 0 1rem 1rem 1rem;
+}
+
+/* top and bottom areas of the left side */
+.family-team, .dog-team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.family-team p, .dog-team p {
+    margin-top: 0.3rem;
+}
+
+.family-team {
+    margin-bottom: 1rem;
+}
+
+.team-text {
+    margin-left: 1rem;
+}
+
+.team-image img {
+    border-radius: 50%;
+}
+
+/* right side of meet the team (video) */
+.team-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.team-video {
+    width: 50%;
+}
+
+#video{
+    border: 0.25rem solid #1C345E;
+    border-radius: 1rem;
+}
+
+#video:hover {
+    border: 0.25rem solid #B85C00;
+    border-radius: 1rem;
+}
+
+.team-video h3 {
+    margin-top: 0.3rem;
+}
+
+/* our details section */
+.our-details {
+    display: flex;  
+    align-items: center;
+    width: 70%;
+    margin: 2rem 0 1rem 0;
+}
+
+.our-details-map{
+    width: 70%;
+    padding:0 2rem 0 1rem; 
+}
+
+#map {
+    border: 0.25rem solid #1C345E;
+    border-radius: 1rem;
+}
+
+#map:hover {
+    border: 0.25rem solid #B85C00;
+    border-radius: 1rem;
+}
+
+.our-details-info {
+    width: 30%;
+    margin-left: 5rem;
+}
+
+.our-details-info h2 {
+    margin-bottom: 1rem;
+    text-underline-offset: 0.4rem;
+}
+
+.our-details-info p {
+    line-height: 2rem;
+}
+.our-details-info h1 {
+    text-align: left;
+}
+
+
 
  /**************************** FOOTER **************************/
 footer {
