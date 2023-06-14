@@ -624,7 +624,7 @@ header {
 
 .form-complete-container h1 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 
 .form-complete-container h2 {
@@ -973,6 +973,11 @@ footer p {
         width: 16.875rem;
         height: 16.875rem;
     }
+/* FORM COMPLETE PAGE */
+    /* shift image right */
+    .form-complete-container {
+        background-position: calc(0% - 89rem) center;
+     } 
 }
 
 
