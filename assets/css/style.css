@@ -927,6 +927,11 @@ footer p {
         display: none;
     } 
     
+    /* remove nave bar spacing */
+    nav {
+        margin-top: 0;
+    }
+
     /* reorganise nav bar */
     .nav-menu li {
         display: block;
