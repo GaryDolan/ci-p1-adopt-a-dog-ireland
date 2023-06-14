@@ -1,39 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Adopt-a-Dog Ireland
 
-Welcome,
+![Preview of website on various devices](documentation/responsive-design-screenshot.png)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Adopt-a-Dog Ireland Website](https://garydolan.github.io/ci-p1-adopt-a-dog-ireland/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
 
-## Codeanywhere Reminders
+Adopt-a-Dog Ireland is a website that I (Gary Dolan) developed for my first project as part of Code Institutes Diploma in Full Stack Software Development. The website was created for people looking to adopt dogs in Ireland and was designed to allow prospective dog adopters to browser a catalogue of adoptable dogs. The websites will providing the user with the all the adoptable dogs details and also guide the user through the adoption process. It will allow the user to apply to adopt a dog of their choice.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Table of Contents
+1. [Introduction](#adopt-a-dog-ireland)
+2. [User Experience]()
+    * [Initial Discussion]()
+    * [User stories]()
+3. [Design]()
+    * [Colour scheme]()
+    * [Typography]()
+    * [Icon creation]()
+    * [Imagery]()
+    * [Wireframes]()
+4. [Features]()
+    * [Future implementations]()
+    * [Accessibility]()
+5. [Technologies used]()
+    * [Languages]()
+    * [Version control]()
+    * [Programs]()
+    * [Tools]()
+6. [Deployment & Local Deployment]()
+    * [Deyployment]()
+    * [Local Deployment]()
+        * [How to Fork]()
+        * [How to Clone]()
+7. [Testing]()
+    * [Automated testing]()
+    * [Manual testiing]()
+    * [Bugs]()
+8. [Design & Development issues]()
+    * [Index page]()
+    * [Dog profile page]()
+    * [About us page]()
+9. [Credits]()
+    * [Copy]()
+    * [Acknowledgements]()
+## Project goal
+To create a website for a dog shelter in Ireland that allows the user to Adopt-a-Dog.
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+# User Experience
+## Initial Discussion
+## User stories
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Design
+## Colour scheme
+## Typography
+## Icon creation
+## Imagery
+## Wireframes
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Features
+## Future implementations
+## Accessibility
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Technologies used
+## Languages
+## Version control
+## Programs
+## Tools
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Deployment & Local Deployment
+## Deployment
+## Local Deployment
+### How to Fork
+### How to Clone
 
----
 
-Happy coding!
+# Testing
+## Automated testing
+## Manual testiing
+## Bugs
+
+
+# Design & Development issues
+## Index page
+## Dog profile page
+## About us page
+
+
+# Credits
+## Copy
+## Acknowledgements
