@@ -68,7 +68,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover, .button-style:hover {
     color: #B85C00;
     background-color: white;
     border: 0.2rem solid #B85C00;
@@ -86,11 +86,7 @@ button:hover {
     font: 700 1.5rem Raleway, sans-serif;
 }
 
-.button-style:hover {
-    color: #B85C00;
-    background-color: white;
-    border: 0.2rem solid #B85C00;
-}
+
 
 /*************************** HEADER *************************/
 header {
@@ -264,6 +260,7 @@ header {
     margin: 0;
     background-color: rgba(28, 52, 94, .1);
     text-decoration: none;
+    text-align: center;
 }
 /* profile surrounding container */
 .profile-container {
@@ -278,7 +275,7 @@ header {
     flex-direction: column;
     align-items: center;
     width:50%;
-    min-height: 45.7rem;
+    min-height: 47.7rem;
 }
 
 .arrow-buttons {
@@ -288,11 +285,17 @@ header {
     margin: 0.5rem 0.55rem 0 0.55rem;
 }
 
-.arrow-buttons button {
+.arrow-buttons a {
     width: 7rem;
     height: 2rem;
+    font-size: 1.5rem;
     background-color: white;
-    color:#1C345E
+    color:#1C345E;
+    text-align: center;
+}
+
+.arrow-buttons a:hover {
+    color: #B85C00;
 }
 
 .profile-content table {
@@ -327,7 +330,7 @@ header {
     line-height: 2rem;
 }
 
-.profile-content button {
+.profile-content a {
     width: 100%;
 }
 
