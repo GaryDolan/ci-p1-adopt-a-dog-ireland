@@ -612,6 +612,10 @@ header {
 }
 
 /* our details section */
+.our-details-section {
+    width: 100%;
+}
+
 .our-details {
     display: flex;  
     align-items: center;
