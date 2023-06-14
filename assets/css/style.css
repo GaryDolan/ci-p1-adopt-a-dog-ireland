@@ -888,6 +888,11 @@ footer p {
     .our-details-info {
         width: 50%;
     }
+/* 404 PAGE */
+    /* shift image right */
+    .four-zero-four {
+        background-position: calc(0% - 89rem) center;
+     } 
 }
 
 /* 600px */
@@ -1028,7 +1033,7 @@ footer p {
     }
 /* FORM COMPLETE PAGE */
     /* shift image right */
-    .form-complete-container, four-zero-four {
+    .form-complete-container{
         background-position: calc(0% - 89rem) center;
      } 
 }
