@@ -467,7 +467,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:1rem
+    padding-top:2rem
 }
 
 .about-us-container h1 {
@@ -486,6 +486,7 @@ header {
 .about-us-container h3 {
     text-align: center;
     margin: 1rem 0 3rem 0;
+    font-size: 1.3rem;
 }
 
 .about-us-container p {
@@ -555,6 +556,7 @@ header {
 .team-video {
     margin: 0 auto;
  }
+
 .team-video {
     width: 50%;
     position: relative; 
@@ -588,7 +590,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 1rem 0 1rem 0;
+    margin-top: 1rem;
     border: 0.25rem  solid #1C345E;
 }
 
@@ -691,6 +693,29 @@ footer p {
      .profile-content {
         width: 100%;
      }
+/* ABOUT US PAGE */
+     /* change layout and width of meet the team divs */
+    .family-team, .dog-team {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+    
+    .team-text {
+        margin-left: 0;
+    }
+
+    /* expand about us text */
+    .about-us{
+        width: 95%;
+    }
+    
+    /* allow video to scale to 90% width */
+    .team-video {
+        width: 90%;
+        position: relative; 
+        padding-top: 50.5125%;
+    }
 }
 
 /* 1100px */
@@ -747,6 +772,15 @@ footer p {
     .preferred-time {
         border: none
     }
+/* ABOUT US PAGE */
+     /* give info more space*/
+     .our-details-map{
+        width: 60%; 
+    }
+    
+    .our-details-info {
+        width: 40%;
+    }
 }
 
 /* 850px */
@@ -777,6 +811,15 @@ footer p {
      .browse-dogs-content div {
         width: 100%;
      }
+/* ABOUT US PAGE */
+     /* give info more space */
+     .our-details-map{
+        width: 50%; 
+    }
+    
+    .our-details-info {
+        width: 50%;
+    }
 }
 
 /* 600px */
@@ -816,6 +859,32 @@ footer p {
     .profile-content p {
         text-align: left;
     }   
+
+/* ABOUT US PAGE */
+     /* change layout and give divs more space */
+    .our-details {
+        flex-direction: column;
+        border: none;
+    }
+
+    .info-container {
+        flex-direction: row;
+        margin: 0 0 1rem 1rem;
+    }
+    
+    .our-details-map{
+        width: 100%; 
+    }
+    
+    .our-details-info {
+        width: 100%;
+    }
+
+    /* change paragraph text justification */
+    .about-us-container p {
+        text-align: left;
+    }
+
 
 }
 
@@ -873,6 +942,11 @@ footer p {
 
     .profile-content p {
         font-size: 1.2rem;
+    }
+/* ABOUT US PAGE */
+    .team-image img {
+        width: 16.875rem;
+        height: 16.875rem;
     }
 }
 
