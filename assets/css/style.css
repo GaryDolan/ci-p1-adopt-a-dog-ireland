@@ -642,7 +642,7 @@ header {
     
 }
 
-.four-zero-four h1, h2, p {
+.four-zero-four h1, .four-zero-four h2, .four-zero-four p {
     color: white;
 }
 
