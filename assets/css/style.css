@@ -629,6 +629,10 @@ header {
 }
 
 /* map  */
+.our-details-map iframe {
+    width: 100%;
+}
+
 .our-details-map{
     width: 70%; 
 }
