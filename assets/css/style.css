@@ -613,7 +613,7 @@ header {
     line-height: 2rem;
 }
 
-/************************ FORM COMPLETE **********************/
+/********************* FORM COMPLETE & 404 *******************/
 .form-complete-container, .four-zero-four {
     min-height: 56.2rem;
     background: url(../images/form-completion.webp) center center / cover no-repeat;
@@ -635,6 +635,15 @@ header {
 .form-complete-container p, .four-zero-four p{
     font-size: 1.3rem;
     margin-bottom: 2rem;
+}
+
+.four-zero-four {
+    background: url(../images/404-image.webp) center center / cover no-repeat;
+    
+}
+
+.four-zero-four h1, h2, p {
+    color: white;
 }
 
 /**************************** FOOTER **************************/
