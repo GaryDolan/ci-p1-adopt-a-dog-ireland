@@ -203,6 +203,11 @@ header {
     font-size: 2rem;
 }
 
+.icon-container p {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
 .hidden-alt-text {
     display: none;
 }
