@@ -32,7 +32,7 @@ h1 {
     font-weight: 700;  
 }
 
-.section-h1 {
+.section-h2 {
     padding: 1rem;
     text-align: center;
     font-size: 2rem;
@@ -40,6 +40,7 @@ h1 {
     text-decoration: underline;
     text-decoration-thickness: 0.25rem;
     text-underline-offset: 0.5rem;
+    align-items: center;
 }
 
 /* Links */
