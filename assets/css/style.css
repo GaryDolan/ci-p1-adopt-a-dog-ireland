@@ -232,6 +232,24 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.dog a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem ;
+    height: 3rem;
+    border-radius: 1.5rem/1.5rem;
+    color: white;
+    background-color: #B85C00;
+    font: 700 1.5rem Raleway, sans-serif;
+}
+
+.dog a:hover {
+    color: #B85C00;
+    background-color: white;
+    border: 0.2rem solid #B85C00;
+}
+
 /************************* DOG PROFILE  ***********************/
 .profile-h1 {
     font-size: 5rem;
