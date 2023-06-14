@@ -881,6 +881,11 @@ footer p {
     }
 
 /* PROFILE PAGE */
+    /* reduce profile heading text size */
+    .profile-h1 {
+        font-size: 3rem;
+    } 
+
     .profile-content p {
         text-align: left;
     }   
