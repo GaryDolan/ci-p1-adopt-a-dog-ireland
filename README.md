@@ -28,6 +28,8 @@ The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog f
     * [About us page](#about-us-page)
     * [From complete page](#form-complete-page)
     * [404 page](#404-page)
+    * [Future Implementations](#future-implementations)
+    * [Accessibility](#accessibility)
 5. [Technologies used](#technologies-used)
     * [Languages](#languages)
     * [Version control](#version-control)
@@ -42,6 +44,7 @@ The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog f
     * [Automated testing](#automated-testing)
     * [Manual testiing](#manual-testiing)
     * [Lighthouse testiing](#lighthouse-testing)
+    * [User story testing](#user-story-testing)
     * [Bugs](#bugs)
 8. [Design & Development issues](#design--development-issues)
     * [Index page](#index-page)
@@ -88,6 +91,7 @@ Adopt-a-Dog Ireland is a website that I (Gary Dolan) developed for my first proj
 * I want to be able to find the shelter contact details and location. 
 * I want to access the shelters social networks.
 
+[Return to Table of Contents](#table-of-contents)
 
 # Design
 ## Colour scheme
@@ -113,7 +117,6 @@ All intended color combination from my pallet were tested on [Webaim](https://we
 
 The test for #B85C00 did fail the AAA check for normal text but I decided to still use it because it's only use would be on the site buttons which all contain large bold text and thus are WCAG AAA compliant. 
 
-
 ## Typography
 When considering fonts, I used a combination of [Google fonts](https://fonts.google.com/) to research fonts, [Font joy](https://fontjoy.com/) to compare various fonts and [Chat GPT](https://openai.com/blog/chatgpt) to make font suggestions. The step below show how I arrived at my final choice. 
 
@@ -136,7 +139,6 @@ I decided that I wanted to create a custom icon for the website. I used two silh
 
 ![Comparsion of Oswald and Robto fonts](/documentation/logo.png)
 
-
 ## Imagery
 All imagery for the website was taken from [Pixabay](https://pixabay.com). They were cut, resized and formats changed as required. With the exception of the 404 page image (which was purposely selected to look sad) all the image for the website were picked to convey happiness, fun and excite the user about the prospect of adopting a dog.
 * [Image 1](https://pixabay.com/photos/golden-retriever-dog-pet-canine-4292254/)
@@ -152,6 +154,8 @@ All imagery for the website was taken from [Pixabay](https://pixabay.com). They 
 * [Image 11](https://pixabay.com/photos/child-dog-nature-children-5334516/)
 * [Image 12](https://pixabay.com/photos/autumn-dog-nature-leaves-fall-pet-4470022/)
 * [Image 13](https://pixabay.com/photos/dog-puppy-pet-animal-cute-canine-1411397/)
+
+
 ## Wireframes
 All the wireframes for the website we created using the Balsamic desktop application. They were also created for specific breakpoint, which I took from [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). Althought I did design my wireframes for these breakpoints, some were changed and some were added, as I developed the website.
 
@@ -260,6 +264,9 @@ All the wireframes for the website we created using the Balsamic desktop applica
 
 </details>
 
+
+[Return to Table of Contents](#table-of-contents)
+
 # Features
 The website contains 15 pages in total. There is one home page, an adopt a dog page, an about us page, a form comple page, a 404 page and 10 dog profile pages. The website is fully responsive and will work on a range of devices. 
 
@@ -354,6 +361,8 @@ I was conscious of accessibility throughout the entire website development proce
 * Used alt atributes and aria labels where applicable. 
 * Where I could not use alts or labels I added discriptive text for screen readers. I used css to hide this text from site.
 
+[Return to Table of Contents](#table-of-contents)
+
 # Technologies used
 ## Languages
 * HTML - Used to add website content and structure.
@@ -441,7 +450,129 @@ The website CSS was validate using [W3C CSS validator](https://jigsaw.w3.org/css
 [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Manual testiing
+The tests for this website listed below were conducted on a number of browsers (google chrome, mozilla firefox, microsoft edge, samsung internet) accross various devices (msi laptop with large screen attached,surface pro, Huawei P30 Pro). I also tested the websites responsive design using the developer tools on chrome and firefox to ensure it responeded as intended.
 
+### Home page tests
+| Test                             | Expected Result                  | Pass |
+|----------------------------------|----------------------------------|------|
+|Logo function                     |Sends user to home page           |   Y  |
+|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Footer icon feedback              |Color change                      |   Y  |
+|Footer icon function              |Open correct site in new window   |   Y  |
+|Responsive design @ 1600px        |All media query rules are applied |   Y  |
+|Responsive design @ 1300px        |All media query rules are applied |   Y  |
+|Responsive design @ 1100px        |All media query rules are applied |   Y  |
+|Responsive design @ 992px         |All media query rules are applied |   Y  |
+|Responsive design @ 850px         |All media query rules are applied |   Y  |
+|Responsive design @ 700px         |All media query rules are applied |   Y  |
+|Responsive design @ 600px         |All media query rules are applied |   Y  |
+|Responsive design @ 500px         |All media query rules are applied |   Y  |
+|Hero image zoom                   |Zooms by 10% on page load         |   Y  |
+|Dog buttons feedback              |Colors reverse                    |   Y  |
+|Dog buttons function              |Send user to correct profile      |   Y  |
+
+
+### Dog profiles tests x 10
+| Test                             | Expected Result                  | Pass |
+|----------------------------------|----------------------------------|------|
+|Logo function                     |Sends user to home page           |   Y  |
+|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Footer icon feedback              |Color change                      |   Y  |
+|Footer icon function              |Open correct site in new window   |   Y  |
+|Responsive design @ 1600px        |All media query rules are applied |   Y  |
+|Responsive design @ 1300px        |All media query rules are applied |   Y  |
+|Responsive design @ 1100px        |All media query rules are applied |   Y  |
+|Responsive design @ 992px         |All media query rules are applied |   Y  |
+|Responsive design @ 850px         |All media query rules are applied |   Y  |
+|Responsive design @ 700px         |All media query rules are applied |   Y  |
+|Responsive design @ 600px         |All media query rules are applied |   Y  |
+|Responsive design @ 500px         |All media query rules are applied |   Y  |
+|Prev & next button feedback       |Color change                      |   Y  |
+|Prev & next button function       |Sends user to correct profile     |   Y  |
+|Adopt me button feedback          |Color change                      |   Y  |
+|Adopt me button function          |Sends user to adopt a dog page    |   Y  |
+
+
+### Adopt a dog page tests
+| Test                             | Expected Result                  | Pass |
+|----------------------------------|----------------------------------|------|
+|Logo function                     |Sends user to home page           |   Y  |
+|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Footer icon feedback              |Color change                      |   Y  |
+|Footer icon function              |Open correct site in new window   |   Y  |
+|Responsive design @ 1600px        |All media query rules are applied |   Y  |
+|Responsive design @ 1300px        |All media query rules are applied |   Y  |
+|Responsive design @ 1100px        |All media query rules are applied |   Y  |
+|Responsive design @ 992px         |All media query rules are applied |   Y  |
+|Responsive design @ 850px         |All media query rules are applied |   Y  |
+|Responsive design @ 700px         |All media query rules are applied |   Y  |
+|Responsive design @ 600px         |All media query rules are applied |   Y  |
+|Responsive design @ 500px         |All media query rules are applied |   Y  |
+|User input cell feedback          |Color change                      |   Y  |
+|User input cell validation        |Each cell must have correct format|   Y  |
+|User input cell message           |Message shown on hover            |   Y  |
+|Drop down list function           |All dogs listed & selectable      |   Y  |
+|Radio button function             |All can be selected, one at a time|   Y  |
+|Apply button restriction          |If any cell empty, no go          |   Y  |
+|Apply button feedback             |colour change                     |   Y  |
+|Apply button function             |Sends user to form complete page  |   Y  |
+
+
+
+### About us page tests
+| Test                             | Expected Result                  | Pass |
+|----------------------------------|----------------------------------|------|
+|Logo function                     |Sends user to home page           |   Y  |
+|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Footer icon feedback              |Color change                      |   Y  |
+|Footer icon function              |Open correct site in new window   |   Y  |
+|Responsive design @ 1600px        |All media query rules are applied |   Y  |
+|Responsive design @ 1300px        |All media query rules are applied |   Y  |
+|Responsive design @ 1100px        |All media query rules are applied |   Y  |
+|Responsive design @ 992px         |All media query rules are applied |   Y  |
+|Responsive design @ 850px         |All media query rules are applied |   Y  |
+|Responsive design @ 700px         |All media query rules are applied |   Y  |
+|Responsive design @ 600px         |All media query rules are applied |   Y  |
+|Responsive design @ 500px         |All media query rules are applied |   Y  |
+|Video feedback                    |border and color change           |   Y  |
+|Video functionality               |Video plays, all controls function|   Y  |
+|Video playback                    |Video does not auto play          |   Y  |
+|Google maps functionality         |All controls function correctly   |   Y  |
+
+
+### Form complete page tests
+| Test                             | Expected Result                  | Pass |
+|----------------------------------|----------------------------------|------|
+|Logo works correctly              |Sends user to home page           |   Y  |
+|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Footer icon feedback              |Open correct site in new window   |   Y  |
+|Responsive design @ 1600px        |All media query rules are applied |   Y  |
+|Responsive design @ 1300px        |All media query rules are applied |   Y  |
+|Responsive design @ 1100px        |All media query rules are applied |   Y  |
+|Responsive design @ 992px         |All media query rules are applied |   Y  |
+|Responsive design @ 850px         |All media query rules are applied |   Y  |
+|Responsive design @ 700px         |All media query rules are applied |   Y  |
+|Responsive design @ 600px         |All media query rules are applied |   Y  |
+|Responsive design @ 500px         |All media query rules are applied |   Y  |
+|Home button feedback              |color change                      |   Y  | 
+|Home button functionality         |User sent to home page            |   Y  |
+
+### 404 page tests
+| Test                             | Expected Result                  | Pass |
+|----------------------------------|----------------------------------|------|
+|Logo works correctly              |Sends user to home page           |   Y  |
+|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Footer icon feedback              |Open correct site in new window   |   Y  |
+|Responsive design @ 1600px        |All media query rules are applied |   Y  |
+|Responsive design @ 1300px        |All media query rules are applied |   Y  |
+|Responsive design @ 1100px        |All media query rules are applied |   Y  |
+|Responsive design @ 992px         |All media query rules are applied |   Y  |
+|Responsive design @ 850px         |All media query rules are applied |   Y  |
+|Responsive design @ 700px         |All media query rules are applied |   Y  |
+|Responsive design @ 600px         |All media query rules are applied |   Y  |
+|Responsive design @ 500px         |All media query rules are applied |   Y  |
+|Home button feedback              |color change                      |   Y  | 
+|Home button functionality         |User sent to home page            |   Y  |
 
 
 ## Lighthouse testing
@@ -627,7 +758,52 @@ Mobile
 
 </details>
 
+## User story testing
+### Owner / 
+* I want to test if the user can easily and intuitively use and navigate the website.
+    * Navigation bar is the header is clea, easy to use, provides feedback and is in the same location site wide.
+* I want to test the site performance is good, with regards to responsiveness and load times.
+    * Website performance testing has been excellent. 
+* I want to test that the Website accessibility is good.
+    * Website acessibility was 100% in all tests on all pages.  
+* I want to test that the website is viewable on a wide array of devices.
+    * Website was tested on various devices and at all sized using google dev tools. 
+* I want to test the websites feedback to the user regarding items that can be interacted with.
+    * All items site wide supply the user with feedback in terms of color changes, prompts, page changes etc.
+* I want to to test that the user is give all neccessary information regarding the adoption process.
+    * This information is provided to the user on the first section of the first page
+* I want to test if the user can browse a catalogue of dogs available for adoption at the shelter.
+    * This is an option in the navigation menu and is displayed on the home page. Functionality of the prev and next buttons also means user can quickly move from profile to profile.
+* I want to test that the user can apply to adop a dog.
+    * Application form is accessible directly from the navigation bar or from any dogs profile
+* I want to test that the user has access to our contact details and social network links.
+    * This is available to the user in the footer section, which is on every page on the site
+* I want to ensure if anything goes wrong the user can navigate back to the home page.
+    * There is a 404 page with clear instruction and home button should this occur.
+* 
+### New user
+* I want to view dogs that are available for adoption.
+    * Avalable on the first page of website and from navigation bar.
+* I want to get a feel for the dogs personalities and know their details.
+    * Profile gives full dog details and a paragraph about them.
+* I want to understand how to adopt a dog.
+    * This is the first information presented to the user on the home page.
+* I want to apply to adopt a chosen dog directly from the website.
+    *This can be done from every dogs profile or from any page via the navigation menu.
+* I want to be able to learn about the shelter and have access to their social networks.
+    * All social networks are on every page in the footer, the about us section give details about the shelter, it's owners and even their dogs.
 
+### Returning user
+* I want to view dogs that are available for adoption.
+    * Available on first page and from navigation menu
+* I want to get a feel for the dogs personalities and know their details.
+    * This is provided in the dogs profile section
+* I want to apply to adopt a dog directly from the website.
+    * This can be done from every dogs profile or from any page via the navigation menu.
+* I want to be able to find the shelter contact details and location.
+    * This information is provided on the about us page and we even provide an interactive google map.
+* I want to access the shelters social networks.
+    * All social networks are on every page in the footer
 
 
 ## Bugs
