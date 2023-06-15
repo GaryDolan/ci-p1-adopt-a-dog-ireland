@@ -36,6 +36,7 @@ The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog f
 7. [Testing](#testing)
     * [Automated testing](#automated-testing)
     * [Manual testiing](#manual-testiing)
+    * [Lighthouse testiing](#lighthouse-testing)
     * [Bugs](#bugs)
 8. [Design & Development issues](#design--development-issues)
     * [Index page](#index-page)
@@ -336,7 +337,7 @@ To clone this repository,
 # Testing
 Testing of the website was ongoing throughout the development process. I used the developer tools in chrome and firefox to test all aspect of the site including its responsiveness.  
 ## Automated testing
-The automated testing of the website HTML code was carried out using [Validator w3](https://validator.w3.org/nu/), the results are shown below 
+The automated testing of the website HTML code was carried out using [Validator w3](https://validator.w3.org/nu/), all html pages passed without any errors or warnings, the results are shown below 
 
 * [404.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2F404.html)  
 * [about-us.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Fabout-us.html)
@@ -348,14 +349,227 @@ The automated testing of the website HTML code was carried out using [Validator 
 * [form-complete.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Fform-complete.html)
 * [hercules-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Fhercules-profile.html)
 * [hugo-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Fhugo-profile.html)
-* [index.html results]()
-* [lily-profile.html results]()
-* [lucy-profile.html results]()
-* [max-profile.html results]()
-* [toby-profile.html results]()
+* [index.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Findex.html)
+* [lily-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Flily-profile.html)
+* [lucy-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Flucy-profile.html)
+* [max-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Fmax-profile.html)
+* [toby-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Ftoby-profile)
+
+The website CSS was validate using [W3C CSS validator](https://jigsaw.w3.org/css-validator/). The website passed with no errors or warnings and the test results can be seen below.
+[CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Manual testiing
+
+
+
+## Lighthouse testing
+The google lighthouse chrome developer tool was used to test the website performance, assesibility, best practices and Search engine optimisation. For all tests on all pages (both desktop and mobile) the website scored very well. all results can be seen below 
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">404 </summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">About Us</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Adopt a Dog</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Bruno Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Charlie Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Cooper Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Daisy Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Form Complete</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Hercules Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Hugo  Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Index</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Lily Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Lucy Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Max Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+<details>
+
+<summary style="font-size: 20px; font-weight: bold;">Toby Profile</summary>
+
+Desktop
+![]()
+
+Mobile
+![]()
+
+</details>
+
+
+
+
 ## Bugs
+
+During the automated testing various errors were found on the website, all errors were fixed.
+
+Index page
+* Errors were shown as I had placed buttons inside of anchor elements on the main page. This mistake was made as I wanted to use the styling of the button. This issue was fixed by removing the butting and adding style rules to the anchor elements directly. Fixed in commit #86 “Fix error where buttons were placed in a elements”
+* Warning were shown as I had misused h2 element, section element and h1 elements. These were all fixed in commit 87, “Fix index html warnings from html validator”
+
+404 & form complete page
+* These pages showed the same errors as they were based on the same code. The error highlighted that a p element cannot be a child of a strong element and that button cannot be a descendant of a element. Warnings regarding the use of h1 element. All fixed in commit #89, Fixed wc3 errors and warnings for 404 and form page
+
+About-us page
+* Errors highlighted that frameborder attribute was obsolete, so it was removed. Fixed warnings regarding headings and section. Fixed in commit 90. Fix wc3 error and warnings for about us html page. Error also flagged about bad value on google map iframe. The error was because it expected a fixed size and I used a %. Error was fixed
+
+Adopt-a-dog
+* Error flagged around the use of legend in a fieldset, issue with it being inside a div. Error also flagged for using the required attribute on a submit type input. Warnings about headings. All fixed in commit #91 . Fix wc3 error and warnings for adopt a dog html page
+
+Dog profile html files (x10)
+* Errors flagged using button as a desendand of anchor element. Warning regarding headings. Fixed all in commit #92. Fix wc3 errors and warning for all dog profile pages
+
+CSS
+* One error found, forgot to include unit after number in a font size declaration. Fixed issue on form complete and 404 page.
 
 
 # Design & Development issues
