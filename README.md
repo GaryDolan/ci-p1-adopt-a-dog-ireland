@@ -47,11 +47,12 @@ The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog f
     * [User story testing](#user-story-testing)
     * [Bugs](#bugs)
 8. [Design & Development issues](#design--development-issues)
-    * [Index page](#index-page)
-    * [Dog profile page](#dog-profile-page)
-    * [About us page](#about-us-page)
+    * [Index page issue](#index-page-issue)
+    * [Dog profile page issue](#dog-profile-page-issue)
+    * [About us page issue](#about-us-page-issue)
 9. [Credits](#credits)
     * [Copy](#copy)
+    * [Imagery](#imagery)
     * [Acknowledgements](#acknowledgements)
 
 # User Experience
@@ -137,7 +138,6 @@ The fonts were selected with accessibility and ease of use in mind. All fonts we
 ## Icon creation
 I decided that I wanted to create a custom icon for the website. I used two silhouettes from [Pixabay](https://pixabay.com/) specifically [this one](https://pixabay.com/vectors/home-black-house-building-simple-155128/) and [this one](https://pixabay.com/illustrations/silhouette-dog-animal-pet-simple-313610/). I then modified these images to create my logo using Inkscape, a fee open-source vector graphics editor.
 
-![Comparsion of Oswald and Robto fonts](/documentation/logo.png)
 
 ## Imagery
 All imagery for the website was taken from [Pixabay](https://pixabay.com). They were cut, resized and formats changed as required. With the exception of the 404 page image (which was purposely selected to look sad) all the image for the website were picked to convey happiness, fun and excite the user about the prospect of adopting a dog.
@@ -164,19 +164,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">PC – Large devices (1200px up)</summary>
 
 #### Index page
-![Index wireframe](/documentation/wireframes/1200px/index-1200px.png)
+![Index wireframe](/documentation/wireframe/1200px/index-1200px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/wireframes/1200px/dog-profile-1200px.png)
+![Dog profile wireframe](/documentation/wireframe/1200px/dog-profile-1200px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/wireframes/1200px/adopt-a-dog-1200px.png)
+![Adopt a dog wireframe](/documentation/wireframe/1200px/adopt-a-dog-1200px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/wireframes/1200px/our-partners-1200px.png)
+![Our partners wireframe](/documentation/wireframe/1200px/our-partners-1200px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/ireframes/1200px/about-us-1200px.png)
+![About Us wireframe](/documentation/wireframe/1200px/about-us-1200px.png)
 
 </details>
 
@@ -185,19 +185,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">PC – Standard (992px to 1199px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/wireframes/992px/index-992px.png)
+![Index wireframe](/documentation/wireframe/992px/index-992px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/wireframes/992px/dog-profile-992px.png)
+![Dog profile wireframe](/documentation/wireframe/992px/dog-profile-992px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/wireframes/992px/adopt-a-dog-992px.png)
+![Adopt a dog wireframe](/documentation/wireframe/992px/adopt-a-dog-992px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/wireframes/992px/our-partners-992px.png)
+![Our partners wireframe](/documentation/wireframe/992px/our-partners-992px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/wireframes/992px/about-us-992px.png)
+![About Us wireframe](/documentation/wireframe/992px/about-us-992px.png)
 
 </details>
 
@@ -206,19 +206,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">Tablet – Landscape (768x to 991px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/wireframes/768px/index-768px.png)
+![Index wireframe](/documentation/wireframe/768px/index-768px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/wireframes/768px/dog-profile-768px.png)
+![Dog profile wireframe](/documentation/wireframe/768px/dog-profile-768px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/wireframes/768px/adopt-a-dog-768px.png)
+![Adopt a dog wireframe](/documentation/wireframe/768px/adopt-a-dog-768px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/wireframes/768px/our-partners-768px.png)
+![Our partners wireframe](/documentation/wireframe/768px/our-partners-768px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/wireframes/768px/about-us-768px.png)
+![About Us wireframe](/documentation/wireframe/768px/about-us-768px.png)
 
 </details>
 
@@ -227,19 +227,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">Tablet – Portrait & Large phones (600x to 767px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/wireframes/600px/index-600px.png)
+![Index wireframe](/documentation/wireframe/600px/index-600px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/wireframes/600px/dog-profile-600px.png)
+![Dog profile wireframe](/documentation/wireframe/600px/dog-profile-600px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/wireframes/600px/adopt-a-dog-600px.png)
+![Adopt a dog wireframe](/documentation/wireframe/600px/adopt-a-dog-600px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/wireframes/600px/our-partners-600px.png)
+![Our partners wireframe](/documentation/wireframe/600px/our-partners-600px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/wireframes/600px/about-us-600px.png)
+![About Us wireframe](/documentation/wireframe/600px/about-us-600px.png)
 
 </details>
 
@@ -248,19 +248,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">Mobile – Standard phones (320px to 599px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/wireframes/320px/index-320px.png)
+![Index wireframe](/documentation/wireframe/320px/index-320px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/wireframes/320px/dog-profile-320px.png)
+![Dog profile wireframe](/documentation/wireframe/320px/dog-profile-320px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/wireframes/320px/adopt-a-dog-320px.png)
+![Adopt a dog wireframe](/documentation/wireframe/320px/adopt-a-dog-320px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/wireframes/320px/our-partners-320px.png)
+![Our partners wireframe](/documentation/wireframe/320px/our-partners-320px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/wireframes/320px/about-us-320px.png)
+![About Us wireframe](/documentation/wireframe/320px/about-us-320px.png)
 
 </details>
 
@@ -396,6 +396,8 @@ I was conscious of accessibility throughout the entire website development proce
 * [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 * [W3C HTML validator](https://validator.w3.org/nu/)
 * Google and firefox build in dev tools 
+
+[Return to Table of Contents](#table-of-contents)
 
 
 # Deployment & Local Deployment
@@ -829,17 +831,23 @@ Dog profile html files (x10)
 CSS
 * One error found, forgot to include unit after number in a font size declaration. Fixed issue on form complete and 404 page.
 
+[Return to Table of Contents](#table-of-contents)
+
+
 
 # Design & Development issues
-## Index page
+## Index page issue
 During my initial design of the index page I designed the how it works section to contain a heading and 3 divs. Each of these divs would hold 2 icons and 2 paragraphs and would be distributed evenly across the page. Although this did work perfectly, I realised when starting to design my next section of the index page(browser our dogs) that the design of the how it works section would be extremely hard to scale correctly. The main issue would be that the 6 icons and 6 accompanying paragraphs needed to be in a specific order. To do this I completely redesigned the section using 6 individual divs containing only 1 icon and 1 paragraph. This was done in commit #13.
 
-## Dog profile page
+## Dog profile page issue
 During my design of the dog profile page I originally followed the design I set out in my wireframes, with the image on the right and content on the left. When making the page responsive I found I needed to reverse the order as when changing to a column style the picture of the dog was placed beneath the content.   
 
 While designing my first dog profile page I had a lot of issues with its layout, especially with regards to the table. Although I knew it was not best practice I decided to work on the page from start to finish without making any commits as it allowed me to constantly try new things until I figured out what worked. I found that a lot of the time what I done in one side of the webpage was dependant on what I would do with the other and thus needed to do it all at once to ensure I was happy with the result. I also done all of my media queries for this page during this time as it again effected how my design would be built. I spent a full day on this page (well as much of the day as I could with a newborn and a 4 year old in the house) and was delighted with my result. It was a real challenge to get right. At the end of the night I decided to copy my code to notepad ++ and then put it back into my code in smaller commits. I did this so that it could be easily understood and followed by the reader. I just wanted to highlight this here as I had a lot of commits close together with a lot of content and although I’m sure some people can do that much work in a very short time, I did not.  
-## About us page
+## About us page issue
 When creating my About us page I had initially created wireframes to use as a guide. When I created the page based on these wireframes they worked perfectly but were very hard to make responsive. Due to this I modified the layout of the page completely and was then able to make the page responsive. This is why the layout does not match the wireframe. I swapped the location of the form pages image and content for the same reason.
+
+[Return to Table of Contents](#table-of-contents)
+
 
 # Credits
 https://petmatch.ie/ Which inspired my design of my how it works section and dog profile page.
@@ -869,4 +877,5 @@ I would like to acknowledge the following people for support and guidance during
 * Kera Cudmore, for her excellent presentation “Creating your first ReadMe” from which I used the main bullet points for the starting structure of my README file.
 * Code institutes love running walkthrough, which gave excellent ideas, particularly the zoom animation on the main image
 
+[Return to Table of Contents](#table-of-contents)
 
