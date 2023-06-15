@@ -64,19 +64,19 @@ Adopt-a-Dog Ireland is a website that I (Gary Dolan) developed for my first proj
 
 ### Owner / Client goals
 * To ensure the user can easily and intuitively use and navigate the website.
-* To create a website that encourages first time learning, keeping consistant navigation, coloring and imagery site wide.
-* To create a website that promotes feelings of positivity and trust in the user, using coloring, imagery and light hearted and informal text.
+* To create a website that encourages first time learning, keeping consistent navigation, colouring and imagery site wide.
+* To create a website that promotes feelings of positivity and trust in the user, using colouring, imagery and light hearted and informal text.
 * To allow users to browse a catalogue of dogs available for adoption at the shelter. 
 * To ensure the processes & steps involved in dog adoption are conveyed clearly to the user.
 * To make it easy and straightforward for the user to apply to adopt a dog.
 * To create a website which is viewable on a large array of devices.
-* To instill a sense of family values in the website to bolster a high level of trust and comfort in the user. 
+* To instil a sense of family values in the website to bolster a high level of trust and comfort in the user. 
 * To make it easy for the user to find and contact the shelter. 
 * To create a high level of user feedback on the website, ensuring the user knows where they can and when the have interacted with the website.
 * To create a website with a high level of accessibility so that all users regardless of capacity can access and use our services. 
 * To create brand awareness via the website and social networks to drive business to the shelter.
 * To use our increased awareness to generate add revenue. 
-* To eventually partner with companies that sell products targeted at dogs. Initially targeting companies like "Big Gain" dog food,  "Chuckit" dog toys, "Halti" dog harnesses, "Hunter" dog beds, "Kong" dog toys and "Soopa" dog treats. 
+* To eventually partner with companies that sell products targeted at dogs. Initially targeting companies like "Big Gain" dog food, "Chuckit" dog toys, "Halti" dog harnesses, "Hunter" dog beds, "Kong" dog toys and "Soopa" dog treats. 
 
 ### First time visitor goals
 * I want to view dogs that are available for adoption.
@@ -96,25 +96,25 @@ Adopt-a-Dog Ireland is a website that I (Gary Dolan) developed for my first proj
 
 # Design
 ## Colour scheme
-The primary objective I wanted to achieve with my color scheme was to invoke happiness in the user. Although the process of dog adoption can have some negative aspects, I wanted to focus on making the user feel positive and optimistic when on the website.  
+The primary objective I wanted to achieve with my colour scheme was to invoke happiness in the user. Although the process of dog adoption can have some negative aspects, I wanted to focus on making the user feel positive and optimistic when on the website.  
 
-The secondary objective for my color scheme was to instill a sense of trust in our users regarding our service. Dog adoption is a big decision and I want the user to know they are in good hands, so they can focus on the positive elements and leave the rest to us.
+The secondary objective for my colour scheme was to instil a sense of trust in our users regarding our service. Dog adoption is a big decision and I want the user to know they are in good hands, so they can focus on the positive elements and leave the rest to us.
 
-Although I wanted to use bright colours, I was also aware of the fact that I wanted to place a large amount of my content on white background. Due to this I wanted to take into account the accessibility of the colour scheme and choose darker version of some colors to insure there would be good contrast between them and a white background or text. 
+Although I wanted to use bright colours, I was also aware of the fact that I wanted to place a large amount of my content on white background. Due to this I wanted to take into account the accessibility of the colour scheme and choose darker version of some colours to insure there would be good contrast between them and a white background or text. 
 
-To select my color palette I used [Color HEX](https://www.color-hex.com/) and took inspiration from one of their happy color palettes, specifically [this one](https://www.color-hex.com/color-palette/13743). The colors from this pallet were adjusted to ensure compliance with WCAG AAA standards. I also used [Coolors](https://coolors.co/) to visualise my palette. 
+To select my colour palette I used [Color HEX](https://www.color-hex.com/) and took inspiration from one of their happy color palettes, specifically [this one](https://www.color-hex.com/color-palette/13743). The colors from this pallet were adjusted to ensure compliance with WCAG AAA standards. I also used [Coolors](https://coolors.co/) to visualise my palette. 
 
 ![Colour Palette](documentation/color-palette.png)
 
-* #E1C418: This is one of my primary colors chosen to invoke happiness.
+* #E1C418: This is one of my primary colours chosen to invoke happiness.
 * #1C345E: This is another one of my primary colours chosen to invoke Trust.
 * #2E4A52: This is one of my secondary colours intended for elements which require user feedback.
-* #595454: This is another of my secondary colors. I felt it was important to has a dark color as it may be needed for contrast. 
-* #B85C00: This is a color I chose for all my calls to action. It is intentionally different to the rest of my color scheme to draw the attention of the user. I again like with other colors, Iintentionally selected a duller shade of orange to ensure good contrast and accessibility.
+* #595454: This is another of my secondary colours. I felt it was important to has a dark color as it may be needed for contrast. 
+* #B85C00: This is a colour I chose for all my calls to action. It is intentionally different to the rest of my colour scheme to draw the attention of the user. I again like with other colours, Intentionally selected a duller shade of orange to ensure good contrast and accessibility.
 
 In the end I did not use #595454 or #B85C00 and opted to use #1C345E with different levels of opacity.
 
-All intended color combination from my pallet were tested on [Webaim](https://webaim.org/resources/contrastchecker/) and [Accessible web](https://accessibleweb.com/color-contrast-checker/) to ensure compliance with WCAG AAA standards.
+All intended colour combination from my pallet were tested on [Webaim](https://webaim.org/resources/contrastchecker/) and [Accessible web](https://accessibleweb.com/color-contrast-checker/) to ensure compliance with WCAG AAA standards.
 
 The test for #B85C00 did fail the AAA check for normal text but I decided to still use it because it's only use would be on the site buttons which all contain large bold text and thus are WCAG AAA compliant. 
 
@@ -158,7 +158,7 @@ All imagery for the website was taken from [Pixabay](https://pixabay.com). They 
 
 
 ## Wireframes
-All the wireframes for the website we created using the Balsamic desktop application. They were also created for specific breakpoint, which I took from [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). Althought I did design my wireframes for these breakpoints, some were changed and some were added, as I developed the website.
+All the wireframes for the website we created using the Balsamic desktop application. They were also created for specific breakpoint, which I took from [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). Although I did design my wireframes for these breakpoints, some were changed and some were added, as I developed the website.
 
 <details>
 
@@ -269,18 +269,18 @@ All the wireframes for the website we created using the Balsamic desktop applica
 [Return to Table of Contents](#table-of-contents)
 
 # Features
-The website contains 15 pages in total. There is one home page, an adopt a dog page, an about us page, a form comple page, a 404 page and 10 dog profile pages. The website is fully responsive and will work on a range of devices. 
+The website contains 15 pages in total. There is one home page, an adopt a dog page, an about us page, a form complete page, a 404 page and 10 dog profile pages. The website is fully responsive and will work on a range of devices. 
 
 ## Common to all pages
 ### Header
-The header is a common feature accross every page on the website. It consists of a custom log containing an image and text and the navigation section. The custom logo is clickable and will return the user to the home page regardless of where on the site they are. The navigation section has four main linke, Home, Dog profiles, Adopt a dog and about us. Each link will drive the user to the corrisponding section of the website. The nav bar also contains some user feedback, as the user hovers over any item it will change color and become underlined. 
+The header is a common feature across every page on the website. It consists of a custom logo containing an image and text and the navigation section. The custom logo is clickable and will return the user to the home page regardless of where on the site they are. The navigation section has four main links, Home, Dog profiles, Adopt a dog and about us. Each link will drive the user to the corresponding section of the website. The nav bar also contains some user feedback, as the user hovers over any item it will change colour and become underlined. 
 
 ![Image of the header](/documentation/features/header.png)
 
 ![Image of the header mobile](/documentation/features/header-mobile.png)
 
 ### Footer
-The footer is also a feature that is common accros all pages of the website. The footer holds icon links to all of the different social networking platforms as well as a copyright. The icons are a deep yellow colour to draw the users attention. All icons in the footer also provide feedback to the user and change colour to indicate they are clickable. when clicked the links will open in new tabs to ensure the user still has access to our website.
+The footer is also a feature that is common across all pages of the website. The footer holds icon links to all of the different social networking platforms as well as a copyright. The icons are a deep yellow colour to draw the users attention. All icons in the footer also provide feedback to the user and change colour to indicate they are clickable. When clicked the links will open in new tabs to ensure the user still has access to our website.
 
 ![Image of the footer](/documentation/features/footer.png)
 
@@ -297,13 +297,13 @@ The hero image is a large image that acts as a banner for the page. The image is
 ![Image of the hero image mobile](/documentation/features/home-hero-image-mobile.png)
 
 ### How it works
-The how it works sections purpose is to explain to the user how the process of dog adoption is carried out and the steps that are involved. The section uses bright eye catching icons to draw the users attention. There are six icons which indiate without having to read what the steps will be. Each icon is accompanies by a small piece of text explaining that step. 
+The how it works sections purpose is to explain to the user how the process of dog adoption is carried out and the steps that are involved. The section uses bright eye catching icons to draw the users attention. There are six icons which indicate without having to read what the steps will be. Each icon is accompanies by a small piece of text explaining that step. 
 
 ![how it works section](/documentation/features/home-how-it-works.png)
 
 ![how it works section mobile](/documentation/features/home-how-it-works-mobile.png)
 ### Browse our dogs
-The second section of the home page is the browse our dogs section. To create a good user experience we want the user to get to dog, as it is the reason they are here. The section consists of ten dog images arranged neatly in rows and columns. The pictures are circular, which is common accross the website. Under each dogs picture is a button which allows the user to visit the dogs profile which clicked. The button design is a burned orange colour which stand out from all the other site colours as a call to action. It will also provide feedback to the user on hover, changing background, text and border colours. This button is again consistant accross the website.
+The second section of the home page is the browse our dogs section. To create a good user experience we want the user to get to dog, as it is the reason they are here. The section consists of ten dog images arranged neatly in rows and columns. The pictures are circular, which is common across the website. Under each dogs picture is a button which allows the user to visit the dogs profile which clicked. The button design is a burned orange colour which stand out from all the other site colours as a call to action. It will also provide feedback to the user on hover, changing background, text and border colours. This button is again consistent across the website.
 
 ![browse our dogs section](/documentation/features/home-browse-our-dogs.png)
 
@@ -317,7 +317,7 @@ The purpose of the dog profile page is to allow the user to learn a little more 
 ![Dog profile mobile](/documentation/features/dog-profile-mobile.png)
 
 ## Adopt a dog page
-The adopt a dog page is a page with a form on it, which allows the users to apply to adop a dog. It is responsive and will scale down mobile, at which point the image will be moved to the background. The form consists of various user imputs which are require to proceed. The user will be given direction of the correct formatts for each input and wil be informed if incorrect or missing. The form submit button will drive the user to the form complete page.
+The adopt a dog page is a page with a form on it, which allows the users to apply to adopt a dog. It is responsive and will scale down mobile, at which point the image will be moved to the background. The form consists of various user inputs which are require to proceed. The user will be given direction of the correct formats for each input and will be informed if incorrect or missing. The form submit button will drive the user to the form complete page.
 
 ![Adopt a dog page](/documentation/features/adopt-a-dog-page.png)
 
@@ -325,21 +325,21 @@ The adopt a dog page is a page with a form on it, which allows the users to appl
 
 
 ## About us page
-The about us page has three main sections, about us, meet the team and our detail. The about us section is a small paragraph about the shelter. The meet the team section introduced the user to the team. It is purposefully light hearted, fun and promotes a a sense of family. This is done in the efort to make the user trust us and feel comfortable. The final section, our details, is a google map link to the location of the shelter, the address, phone number and email. The google map is fully functional.
+The about us page has three main sections, about us, meet the team and our detail. The about us section is a small paragraph about the shelter. The meet the team section introduced the user to the team. It is purposefully light hearted, fun and promotes a sense of family. This is done in the effort to make the user trust us and feel comfortable. The final section, our details, is a google map link to the location of the shelter, the address, phone number and email. The google map is fully functional.
 
 ![Adbout us ](/documentation/features/about-use-meet-team.png)
 
 ![about us 2](/documentation/features/about-use-meet-team2.png)
 
 ## Form complete page
-The form complete page is where the user is driven after the user completes an application to addopt a dog. It is used as feedback to let the user know the application has gone through. It is simply a page with an image, some text and a button to return home.
+The form complete page is where the user is driven after the user completes an application to adopt a dog. It is used as feedback to let the user know the application has gone through. It is simply a page with an image, some text and a button to return home.
 
 ![Form complete](/documentation/features/form-complete.png)
 
 ![Form complete](/documentation/features/form-complete-mobile.png)
 
 ## 404 page
-The 404 page is the page the user will be directed to if they a page they try to visit doesnt exist. Again it is used as feedback to let the user know that something has gone wrong and provide them with a home button back to safety
+The 404 page is the page the user will be directed to if they a page they try to visit doesn't exist. Again it is used as feedback to let the user know that something has gone wrong and provide them with a home button back to safety
 
 ![404 page](/documentation/features/404-img.png)
 
@@ -352,15 +352,15 @@ In the future I would like to add the following features to the website,
 * Add the ability for users to help Adopt-a-Dog Ireland by volunteering, donating, holding events etc.
 * Add a detailed help and advice section that the user could visit at all stages of the adoption process. This section would have subsection that would provide the user with relevant information and advice based on their stage in the adoption process (before, during, after)
 * Add a success stories / Gallery section to the website that showcases stories and images of adopted dogs and their happy owners. This purpose of this section would be to encourage potential dog adopters to undertake the adoption process by showing them how well it has worked for others.  
-* Add a Partners page demoing brands we trust, special offers etc.. I had planned to add this section during my initial design and wireframe stage but decided to remove it. I did do due to concerns over copyright infringement. The images I would need to use for this page would be copywritten. I spoke to my cohort facilator who seemed to think it would be fine but my mentor advised against using copywritten material so I scrapped the pag 
+* Add a Partners page demoing brands we trust, special offers etc.. I had planned to add this section during my initial design and wireframe stage but decided to remove it. I did do due to concerns over copyright infringement. The images I would need to use for this page would be copywritten. I spoke to my cohort facilitator who seemed to think it would be fine but my mentor advised against using copywritten material so I scrapped the page. 
 
 ## Accessibility
 I was conscious of accessibility throughout the entire website development process and took the following steps to ensure that the website would be as accessible as possible
 
 * Used as much semantic HTML as possible, where relevant.
-* Choose the website colors carefully ensuring I used colours that were compliant to the highest standards and provided excellent contrast.
-* Used alt atributes and aria labels where applicable. 
-* Where I could not use alts or labels I added discriptive text for screen readers. I used css to hide this text from site.
+* Choose the website colours carefully ensuring I used colours that were compliant to the highest standards and provided excellent contrast.
+* Used alt attributes and aria labels where applicable. 
+* Where I could not use alts or labels I added descriptive text for screen readers. I used CSS to hide this text from site.
 
 [Return to Table of Contents](#table-of-contents)
 
@@ -411,7 +411,7 @@ Github pages was used to deploy this website. To deploy a website using github p
 4. Select the pages option from the left hand menu.
 5. In the source dropdown box select main.
 6. Click the save button.
-7. The website is now deployed using gihub pages and when ready (can take a minute) a link will apear at the top of the page for your website. 
+7. The website is now deployed using github pages and when ready (can take a minute) a link will appear at the top of the page for your website. 
 
 ## Local Deployment
 ### How to Fork
@@ -424,7 +424,7 @@ To clone this repository,
 1. Log into or signup at [Github](https://github.com).
 2. Select the repository for this website
 3. Click the green code button (upper right).
-4. Copy the url usiing the copy button. 
+4. Copy the URL using the copy button. 
 5. Open the terminal in your editor (or of your choosing) and move to the directory which you want to clone to.
 6. Type git clone and paste the repository link, then press enter.
 
@@ -453,14 +453,14 @@ The website CSS was validate using [W3C CSS validator](https://jigsaw.w3.org/css
 [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Manual testiing
-The tests for this website listed below were conducted on a number of browsers (google chrome, mozilla firefox, microsoft edge, samsung internet) accross various devices (msi laptop with large screen attached,surface pro, Huawei P30 Pro). I also tested the websites responsive design using the developer tools on chrome and firefox to ensure it responeded as intended.
+The tests for this website listed below were conducted on a number of browsers (google chrome, mozilla firefox, microsoft edge, samsung internet) across various devices (msi laptop with large screen attached, surface pro, Huawei P30 Pro). I also tested the websites responsive design using the developer tools on chrome and firefox to ensure it responded as intended.
 
 ### Home page tests
 | Test                             | Expected Result                  | Pass |
 |----------------------------------|----------------------------------|------|
 |Logo function                     |Sends user to home page           |   Y  |
-|Nav bar link feedback             |Nav changes color and underline   |   Y  |
-|Footer icon feedback              |Color change                      |   Y  |
+|Nav bar link feedback             |Nav changes colour and underline  |   Y  |
+|Footer icon feedback              |Colour change                     |   Y  |
 |Footer icon function              |Open correct site in new window   |   Y  |
 |Responsive design @ 1600px        |All media query rules are applied |   Y  |
 |Responsive design @ 1300px        |All media query rules are applied |   Y  |
@@ -471,7 +471,7 @@ The tests for this website listed below were conducted on a number of browsers (
 |Responsive design @ 600px         |All media query rules are applied |   Y  |
 |Responsive design @ 500px         |All media query rules are applied |   Y  |
 |Hero image zoom                   |Zooms by 10% on page load         |   Y  |
-|Dog buttons feedback              |Colors reverse                    |   Y  |
+|Dog buttons feedback              |Colours reverse                   |   Y  |
 |Dog buttons function              |Send user to correct profile      |   Y  |
 
 
@@ -480,7 +480,7 @@ The tests for this website listed below were conducted on a number of browsers (
 |----------------------------------|----------------------------------|------|
 |Logo function                     |Sends user to home page           |   Y  |
 |Nav bar link feedback             |Nav changes color and underline   |   Y  |
-|Footer icon feedback              |Color change                      |   Y  |
+|Footer icon feedback              |Colour change                     |   Y  |
 |Footer icon function              |Open correct site in new window   |   Y  |
 |Responsive design @ 1600px        |All media query rules are applied |   Y  |
 |Responsive design @ 1300px        |All media query rules are applied |   Y  |
@@ -490,9 +490,9 @@ The tests for this website listed below were conducted on a number of browsers (
 |Responsive design @ 700px         |All media query rules are applied |   Y  |
 |Responsive design @ 600px         |All media query rules are applied |   Y  |
 |Responsive design @ 500px         |All media query rules are applied |   Y  |
-|Prev & next button feedback       |Color change                      |   Y  |
+|Prev & next button feedback       |Colour change                     |   Y  |
 |Prev & next button function       |Sends user to correct profile     |   Y  |
-|Adopt me button feedback          |Color change                      |   Y  |
+|Adopt me button feedback          |Colour change                     |   Y  |
 |Adopt me button function          |Sends user to adopt a dog page    |   Y  |
 
 
@@ -500,8 +500,8 @@ The tests for this website listed below were conducted on a number of browsers (
 | Test                             | Expected Result                  | Pass |
 |----------------------------------|----------------------------------|------|
 |Logo function                     |Sends user to home page           |   Y  |
-|Nav bar link feedback             |Nav changes color and underline   |   Y  |
-|Footer icon feedback              |Color change                      |   Y  |
+|Nav bar link feedback             |Nav changes colour and underline  |   Y  |
+|Footer icon feedback              |Colour change                     |   Y  |
 |Footer icon function              |Open correct site in new window   |   Y  |
 |Responsive design @ 1600px        |All media query rules are applied |   Y  |
 |Responsive design @ 1300px        |All media query rules are applied |   Y  |
@@ -511,7 +511,7 @@ The tests for this website listed below were conducted on a number of browsers (
 |Responsive design @ 700px         |All media query rules are applied |   Y  |
 |Responsive design @ 600px         |All media query rules are applied |   Y  |
 |Responsive design @ 500px         |All media query rules are applied |   Y  |
-|User input cell feedback          |Color change                      |   Y  |
+|User input cell feedback          |Colour change                     |   Y  |
 |User input cell validation        |Each cell must have correct format|   Y  |
 |User input cell message           |Message shown on hover            |   Y  |
 |Drop down list function           |All dogs listed & selectable      |   Y  |
@@ -526,8 +526,8 @@ The tests for this website listed below were conducted on a number of browsers (
 | Test                             | Expected Result                  | Pass |
 |----------------------------------|----------------------------------|------|
 |Logo function                     |Sends user to home page           |   Y  |
-|Nav bar link feedback             |Nav changes color and underline   |   Y  |
-|Footer icon feedback              |Color change                      |   Y  |
+|Nav bar link feedback             |Nav changes colour and underline  |   Y  |
+|Footer icon feedback              |Colour change                     |   Y  |
 |Footer icon function              |Open correct site in new window   |   Y  |
 |Responsive design @ 1600px        |All media query rules are applied |   Y  |
 |Responsive design @ 1300px        |All media query rules are applied |   Y  |
@@ -537,7 +537,7 @@ The tests for this website listed below were conducted on a number of browsers (
 |Responsive design @ 700px         |All media query rules are applied |   Y  |
 |Responsive design @ 600px         |All media query rules are applied |   Y  |
 |Responsive design @ 500px         |All media query rules are applied |   Y  |
-|Video feedback                    |border and color change           |   Y  |
+|Video feedback                    |border and colour change          |   Y  |
 |Video functionality               |Video plays, all controls function|   Y  |
 |Video playback                    |Video does not auto play          |   Y  |
 |Google maps functionality         |All controls function correctly   |   Y  |
@@ -547,7 +547,7 @@ The tests for this website listed below were conducted on a number of browsers (
 | Test                             | Expected Result                  | Pass |
 |----------------------------------|----------------------------------|------|
 |Logo works correctly              |Sends user to home page           |   Y  |
-|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Nav bar link feedback             |Nav changes colour and underline  |   Y  |
 |Footer icon feedback              |Open correct site in new window   |   Y  |
 |Responsive design @ 1600px        |All media query rules are applied |   Y  |
 |Responsive design @ 1300px        |All media query rules are applied |   Y  |
@@ -557,14 +557,14 @@ The tests for this website listed below were conducted on a number of browsers (
 |Responsive design @ 700px         |All media query rules are applied |   Y  |
 |Responsive design @ 600px         |All media query rules are applied |   Y  |
 |Responsive design @ 500px         |All media query rules are applied |   Y  |
-|Home button feedback              |color change                      |   Y  | 
+|Home button feedback              |colour change                     |   Y  | 
 |Home button functionality         |User sent to home page            |   Y  |
 
 ### 404 page tests
 | Test                             | Expected Result                  | Pass |
 |----------------------------------|----------------------------------|------|
 |Logo works correctly              |Sends user to home page           |   Y  |
-|Nav bar link feedback             |Nav changes color and underline   |   Y  |
+|Nav bar link feedback             |Nav changes colour and underline  |   Y  |
 |Footer icon feedback              |Open correct site in new window   |   Y  |
 |Responsive design @ 1600px        |All media query rules are applied |   Y  |
 |Responsive design @ 1300px        |All media query rules are applied |   Y  |
@@ -574,12 +574,12 @@ The tests for this website listed below were conducted on a number of browsers (
 |Responsive design @ 700px         |All media query rules are applied |   Y  |
 |Responsive design @ 600px         |All media query rules are applied |   Y  |
 |Responsive design @ 500px         |All media query rules are applied |   Y  |
-|Home button feedback              |color change                      |   Y  | 
+|Home button feedback              |colour change                     |   Y  | 
 |Home button functionality         |User sent to home page            |   Y  |
 
 
 ## Lighthouse testing
-The google lighthouse chrome developer tool was used to test the website performance, assesibility, best practices and Search engine optimisation. For all tests on all pages (both desktop and mobile) the website scored very well. all results can be seen below 
+The google lighthouse chrome developer tool was used to test the website performance, accessibility, best practices and Search engine optimisation. For all tests on all pages (both desktop and mobile) the website scored very well. all results can be seen below 
 
 <details>
 
@@ -764,16 +764,16 @@ Mobile
 ## User story testing
 ### Owner / 
 * I want to test if the user can easily and intuitively use and navigate the website.
-    * Navigation bar is the header is clea, easy to use, provides feedback and is in the same location site wide.
+    * Navigation bar is the header is clear, easy to use, provides feedback and is in the same location site wide.
 * I want to test the site performance is good, with regards to responsiveness and load times.
     * Website performance testing has been excellent. 
 * I want to test that the Website accessibility is good.
-    * Website acessibility was 100% in all tests on all pages.  
+    * Website accessibility was 100% in all tests on all pages.  
 * I want to test that the website is viewable on a wide array of devices.
     * Website was tested on various devices and at all sized using google dev tools. 
 * I want to test the websites feedback to the user regarding items that can be interacted with.
-    * All items site wide supply the user with feedback in terms of color changes, prompts, page changes etc.
-* I want to to test that the user is give all neccessary information regarding the adoption process.
+    * All items site wide supply the user with feedback in terms of colour changes, prompts, page changes etc.
+* I want to test that the user is give all necessary information regarding the adoption process.
     * This information is provided to the user on the first section of the first page
 * I want to test if the user can browse a catalogue of dogs available for adoption at the shelter.
     * This is an option in the navigation menu and is displayed on the home page. Functionality of the prev and next buttons also means user can quickly move from profile to profile.
