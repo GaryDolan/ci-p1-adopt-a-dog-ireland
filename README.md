@@ -21,8 +21,13 @@ The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog f
     * [Imagery](#imagery)
     * [Wireframes](#wireframes)
 4. [Features](#features)
-    * [Future implementations](#future-implementations)
-    * [Accessibility](#accessibility)
+    * [Common to all](#common-to-all-pages)
+    * [Home Page](#home-page)
+    * [Dog profile page](#dog-profile-page)
+    * [Adopt a dog page](#adopt-a-dog-page)
+    * [About us page](#about-us-page)
+    * [From complete page](#form-complete-page)
+    * [404 page](#404-page)
 5. [Technologies used](#technologies-used)
     * [Languages](#languages)
     * [Version control](#version-control)
@@ -155,19 +160,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">PC – Large devices (1200px up)</summary>
 
 #### Index page
-![Index wireframe](/documentation/Wireframes/1200px/index-1200px.png)
+![Index wireframe](/documentation/wireframes/1200px/index-1200px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/Wireframes/1200px/dog-profile-1200px.png)
+![Dog profile wireframe](/documentation/wireframes/1200px/dog-profile-1200px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/Wireframes/1200px/adopt-a-dog-1200px.png)
+![Adopt a dog wireframe](/documentation/wireframes/1200px/adopt-a-dog-1200px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/Wireframes/1200px/our-partners-1200px.png)
+![Our partners wireframe](/documentation/wireframes/1200px/our-partners-1200px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/Wireframes/1200px/about-us-1200px.png)
+![About Us wireframe](/documentation/ireframes/1200px/about-us-1200px.png)
 
 </details>
 
@@ -176,19 +181,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">PC – Standard (992px to 1199px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/Wireframes/992px/index-992px.png)
+![Index wireframe](/documentation/wireframes/992px/index-992px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/Wireframes/992px/dog-profile-992px.png)
+![Dog profile wireframe](/documentation/wireframes/992px/dog-profile-992px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/Wireframes/992px/adopt-a-dog-992px.png)
+![Adopt a dog wireframe](/documentation/wireframes/992px/adopt-a-dog-992px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/Wireframes/992px/our-partners-992px.png)
+![Our partners wireframe](/documentation/wireframes/992px/our-partners-992px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/Wireframes/992px/about-us-992px.png)
+![About Us wireframe](/documentation/wireframes/992px/about-us-992px.png)
 
 </details>
 
@@ -197,19 +202,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">Tablet – Landscape (768x to 991px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/Wireframes/768px/index-768px.png)
+![Index wireframe](/documentation/wireframes/768px/index-768px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/Wireframes/768px/dog-profile-768px.png)
+![Dog profile wireframe](/documentation/wireframes/768px/dog-profile-768px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/Wireframes/768px/adopt-a-dog-768px.png)
+![Adopt a dog wireframe](/documentation/wireframes/768px/adopt-a-dog-768px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/Wireframes/768px/our-partners-768px.png)
+![Our partners wireframe](/documentation/wireframes/768px/our-partners-768px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/Wireframes/768px/about-us-768px.png)
+![About Us wireframe](/documentation/wireframes/768px/about-us-768px.png)
 
 </details>
 
@@ -218,19 +223,19 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">Tablet – Portrait & Large phones (600x to 767px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/Wireframes/600px/index-600px.png)
+![Index wireframe](/documentation/wireframes/600px/index-600px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/Wireframes/600px/dog-profile-600px.png)
+![Dog profile wireframe](/documentation/wireframes/600px/dog-profile-600px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/Wireframes/600px/adopt-a-dog-600px.png)
+![Adopt a dog wireframe](/documentation/wireframes/600px/adopt-a-dog-600px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/Wireframes/600px/our-partners-600px.png)
+![Our partners wireframe](/documentation/wireframes/600px/our-partners-600px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/Wireframes/600px/about-us-600px.png)
+![About Us wireframe](/documentation/wireframes/600px/about-us-600px.png)
 
 </details>
 
@@ -239,23 +244,63 @@ All the wireframes for the website we created using the Balsamic desktop applica
 <summary style="font-size: 20px; font-weight: bold;">Mobile – Standard phones (320px to 599px)</summary>
 
 #### Index page
-![Index wireframe](/documentation/Wireframes/320px/index-320px.png)
+![Index wireframe](/documentation/wireframes/320px/index-320px.png)
 
 #### Dog Profile page
-![Dog profile wireframe](/documentation/Wireframes/320px/dog-profile-320px.png)
+![Dog profile wireframe](/documentation/wireframes/320px/dog-profile-320px.png)
 
 #### Adopt-a-Dog page
-![Adopt a dog wireframe](/documentation/Wireframes/320px/adopt-a-dog-320px.png)
+![Adopt a dog wireframe](/documentation/wireframes/320px/adopt-a-dog-320px.png)
 
 #### Our Partners page
-![Our partners wireframe](/documentation/Wireframes/320px/our-partners-320px.png)
+![Our partners wireframe](/documentation/wireframes/320px/our-partners-320px.png)
 
 #### About Us page
-![About Us wireframe](/documentation/Wireframes/320px/about-us-320px.png)
+![About Us wireframe](/documentation/wireframes/320px/about-us-320px.png)
 
 </details>
 
 # Features
+The website contains 15 pages in total. There is one home page, an adopt a dog page, an about us page, a form comple page, a 404 page and 10 dog profile pages. The website is fully responsive and will work on a range of devices. 
+
+## Common to all pages
+### Header
+The header is a common feature accross every page on the website. It consists of a custom log containing an image and text and the navigation section. The custom logo is clickable and will return the user to the home page regardless of where on the site they are. The navigation section has four main linke, Home, Dog profiles, Adopt a dog and about us. Each link will drive the user to the corrisponding section of the website. The nav bar also contains some user feedback, as the user hovers over any item it will change color and become underlined. 
+
+![Image of the header](/documentation/features/header.png)
+![Image of the header mobile](/documentation/features/header-mobile.png)
+
+### Footer
+The footer is also a feature that is common accros all pages of the website. The footer holds icon links to all of the different social networking platforms as well as a copyright. The icons are a deep yellow colour to draw the users attention. All icons in the footer also provide feedback to the user and change colour to indicate they are clickable. when clicked the links will open in new tabs to ensure the user still has access to our website.
+
+![Image of the footer](/documentation/features/footer.png)
+![Image of the footer mobile](/documentation/features/footer-mobile.png)
+
+## Home page
+The home page consists of a hero image and two sections, they are the how it works section and the browse our dogs section.
+
+### Hero image
+The hero image is a large image that acts as a banner for the page. The image is of a young girl, lovingly looking at and petting her dog. The dog in the picture also looks very happy. The image is suppose to bolster a sense of positivity about the website and dog adoption process. The hero image also have an animation attached to it and the image will zoom in 10% when the page loads. On mobile the hero image will be switch to a smaller image. 
+
+![Image of the hero image](/documentation/features/home-hero-image.png)
+![Image of the hero image mobile](/documentation/features/home-hero-image-mobile.png)
+
+### How it works
+
+### Browse our dogs
+
+
+## Dog profile pages
+## Adopt a dog page
+
+## About us page
+
+## Form complete page
+
+## 404 page
+
+
+
 ## Future implementations
 In the future I would like to add the following features to the website,
 * Update the purpose of the website to include the possibility for people to surrender their dog for adoption, adding all the relevant pages forms etc. 
@@ -370,10 +415,10 @@ The google lighthouse chrome developer tool was used to test the website perform
 <summary style="font-size: 20px; font-weight: bold;">404 </summary>
 
 Desktop
-![]()
+![404 lighthouse results](/documentation/lighthouse/404-desktop-lighthouse.png)
 
 Mobile
-![]()
+![404 lighthouse results](/documentation/lighthouse/404-mobile-lighthouse.png)
 
 </details>
 
@@ -382,10 +427,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">About Us</summary>
 
 Desktop
-![]()
+![About Us lighthouse results](/documentation/lighthouse/about-us-desktop-lighthouse.png)
 
 Mobile
-![]()
+![About Us lighthouse results](/documentation/lighthouse/about-us-mobile-lighthouse.png)
 
 </details>
 
@@ -394,10 +439,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Adopt a Dog</summary>
 
 Desktop
-![]()
+![Adopt a Dog lighthouse results](/documentation/lighthouse/adopt-a-dog-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Adopt a Dog lighthouse results](/documentation/lighthouse/adopt-a-dog-mobile-lighthouse.png)
 
 </details>
 
@@ -406,10 +451,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Bruno Profile</summary>
 
 Desktop
-![]()
+![Bruno Profile lighthouse results](/documentation/lighthouse/bruno-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Bruno Profile lighthouse results](/documentation/lighthouse/bruno-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -418,10 +463,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Charlie Profile</summary>
 
 Desktop
-![]()
+![Charlie Profile lighthouse results](/documentation/lighthouse/charlie-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Charlie Profile lighthouse results](/documentation/lighthouse/charlie-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -430,10 +475,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Cooper Profile</summary>
 
 Desktop
-![]()
+![Cooper Profile lighthouse results](/documentation/lighthouse/cooper-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Cooper Profile lighthouse results](/documentation/lighthouse/cooper-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -442,10 +487,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Daisy Profile</summary>
 
 Desktop
-![]()
+![Daisy Profile lighthouse results](/documentation/lighthouse/daisy-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Daisy Profile lighthouse results](/documentation/lighthouse/daisy-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -454,10 +499,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Form Complete</summary>
 
 Desktop
-![]()
+![Form Complete lighthouse results](/documentation/lighthouse/form-complete-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Form Complete lighthouse results](/documentation/lighthouse/form-complete-mobile-lighthouse.png)
 
 </details>
 
@@ -466,10 +511,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Hercules Profile</summary>
 
 Desktop
-![]()
+![Hercules Profile lighthouse results](/documentation/lighthouse/hercules-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Hercules Profile lighthouse results](/documentation/lighthouse/hercules-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -478,10 +523,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Hugo  Profile</summary>
 
 Desktop
-![]()
+![Hugo  Profile< lighthouse results](/documentation/lighthouse/hugo-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Hugo  Profile< lighthouse results](/documentation/lighthouse/hugo-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -490,10 +535,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Index</summary>
 
 Desktop
-![]()
+![Index lighthouse results](/documentation/lighthouse/index-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Index lighthouse results](/documentation/lighthouse/index-mobile-lighthouse.png)
 
 </details>
 
@@ -502,10 +547,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Lily Profile</summary>
 
 Desktop
-![]()
+![Lily Profile lighthouse results](/documentation/lighthouse/lily-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Lily Profile lighthouse results](/documentation/lighthouse/lily-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -514,10 +559,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Lucy Profile</summary>
 
 Desktop
-![]()
+![Lucy Profile lighthouse results](/documentation/lighthouse/lucy-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Lucy Profile lighthouse results](/documentation/lighthouse/lucy-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -526,10 +571,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Max Profile</summary>
 
 Desktop
-![]()
+![Max Profile lighthouse results](/documentation/lighthouse/max-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Max Profile lighthouse results](/documentation/lighthouse/max-profile-mobile-lighthouse.png)
 
 </details>
 
@@ -538,10 +583,10 @@ Mobile
 <summary style="font-size: 20px; font-weight: bold;">Toby Profile</summary>
 
 Desktop
-![]()
+![Toby Profile lighthouse results](/documentation/lighthouse/toby-profile-desktop-lighthouse.png)
 
 Mobile
-![]()
+![Toby Profile lighthouse results](/documentation/lighthouse/toby-profile-mobile-lighthouse.png)
 
 </details>
 
