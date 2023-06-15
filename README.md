@@ -100,7 +100,7 @@ The primary objective I wanted to achieve with my colour scheme was to invoke ha
 
 The secondary objective for my colour scheme was to instil a sense of trust in our users regarding our service. Dog adoption is a big decision and I want the user to know they are in good hands, so they can focus on the positive elements and leave the rest to us.
 
-Although I wanted to use bright colours, I was also aware of the fact that I wanted to place a large amount of my content on white background. Due to this I wanted to take into account the accessibility of the colour scheme and choose darker version of some colours to insure there would be good contrast between them and a white background or text. 
+Although I wanted to use bright colours, I was also aware of the fact that I wanted to place a large amount of my content on white background. Due to this I wanted to take into account the accessibility of the colour scheme and choose darker versions of some colours to ensure there would be good contrast between them and a white background or text. 
 
 To select my colour palette I used [Color HEX](https://www.color-hex.com/) and took inspiration from one of their happy color palettes, specifically [this one](https://www.color-hex.com/color-palette/13743). The colors from this pallet were adjusted to ensure compliance with WCAG AAA standards. I also used [Coolors](https://coolors.co/) to visualise my palette. 
 
@@ -110,7 +110,7 @@ To select my colour palette I used [Color HEX](https://www.color-hex.com/) and t
 * #1C345E: This is another one of my primary colours chosen to invoke Trust.
 * #2E4A52: This is one of my secondary colours intended for elements which require user feedback.
 * #595454: This is another of my secondary colours. I felt it was important to has a dark color as it may be needed for contrast. 
-* #B85C00: This is a colour I chose for all my calls to action. It is intentionally different to the rest of my colour scheme to draw the attention of the user. I again like with other colours, Intentionally selected a duller shade of orange to ensure good contrast and accessibility.
+* #B85C00: This is a colour I chose for all my calls to action. It is intentionally different to the rest of my colour scheme to draw the attention of the user. I again, like with other colours, Intentionally selected a duller shade of orange to ensure good contrast and accessibility.
 
 In the end I did not use #595454 or #B85C00 and opted to use #1C345E with different levels of opacity.
 
@@ -290,34 +290,34 @@ The footer is also a feature that is common across all pages of the website. The
 The home page consists of a hero image and two sections, they are the how it works section and the browse our dogs section.
 
 ### Hero image
-The hero image is a large image that acts as a banner for the page. The image is of a young girl, lovingly looking at and petting her dog. The dog in the picture also looks very happy. The image is suppose to bolster a sense of positivity about the website and dog adoption process. The hero image also have an animation attached to it and the image will zoom in 10% when the page loads. On mobile the hero image will be switch to a smaller image. 
+The hero image is a large image that acts as a banner for the page. The image is of a young girl, lovingly looking at and petting her dog. The dog in the picture also looks very happy. The image is suppose to bolster a sense of positivity about the website and dog adoption process. The hero image also has an animation attached to it and the image will zoom in 10% when the page loads. On mobile the hero image will be switch to a smaller image. 
 
 ![Image of the hero image](/documentation/features/home-hero-image.png)
 
 ![Image of the hero image mobile](/documentation/features/home-hero-image-mobile.png)
 
 ### How it works
-The how it works sections purpose is to explain to the user how the process of dog adoption is carried out and the steps that are involved. The section uses bright eye catching icons to draw the users attention. There are six icons which indicate without having to read what the steps will be. Each icon is accompanies by a small piece of text explaining that step. 
+The how it works sections purpose is to explain to the user how the process of dog adoption is carried out and the steps that are involved. The section uses bright eye catching icons to draw the users attention. There are six icons which indicate, without having to read what the steps will be. Each icon is accompanied by a small piece of text explaining that step. 
 
 ![how it works section](/documentation/features/home-how-it-works.png)
 
 ![how it works section mobile](/documentation/features/home-how-it-works-mobile.png)
 ### Browse our dogs
-The second section of the home page is the browse our dogs section. To create a good user experience we want the user to get to dog, as it is the reason they are here. The section consists of ten dog images arranged neatly in rows and columns. The pictures are circular, which is common across the website. Under each dogs picture is a button which allows the user to visit the dogs profile which clicked. The button design is a burned orange colour which stand out from all the other site colours as a call to action. It will also provide feedback to the user on hover, changing background, text and border colours. This button is again consistent across the website.
+The second section of the home page is the browse our dogs section. To create a good user experience we want the user to get to the dogs as fast as possible, as it is the reason they are here. The section consists of ten dog images arranged neatly in rows and columns. The pictures are circular, which is common across the website. Under each dogs picture is a button which allows the user to visit the dogs profile when clicked. The button design is a burned orange colour which stands out from all the other site colours as a call to action. It will also provide feedback to the user on hover, changing background, text and border colours. This button is again consistent across the website.
 
 ![browse our dogs section](/documentation/features/home-browse-our-dogs.png)
 
 ![browse our dogs section mobile](/documentation/features/home-browse-our-dogs-mobile.png)
 
 ## Dog profile pages
-The purpose of the dog profile page is to allow the user to learn a little more about the dogs before they make their decisions. It consists of a larger banner with the dogs name, an image of the dog, the dog details and a button saying adopt me. When pressed it will drive the user to the adopt a dog page when pressed. The page also has prev and next buttons to allow the user to browse through the dogs without leaving the page. 
+The purpose of the dog profile page is to allow the user to learn a little more about the dogs before they make their decisions. It consists of a larger banner with the dogs name, an image of the dog, the dog details and a button saying adopt me. When pressed it will drive the user to the adopt a dog page. The page also has prev and next buttons to allow the user to browse through the dogs without leaving the page. 
 
 ![Dog profile](/documentation/features/dog-profile.png)
 
 ![Dog profile mobile](/documentation/features/dog-profile-mobile.png)
 
 ## Adopt a dog page
-The adopt a dog page is a page with a form on it, which allows the users to apply to adopt a dog. It is responsive and will scale down mobile, at which point the image will be moved to the background. The form consists of various user inputs which are require to proceed. The user will be given direction of the correct formats for each input and will be informed if incorrect or missing. The form submit button will drive the user to the form complete page.
+The adopt a dog page is a page with a form on it, which allows the users to apply to adopt a dog. It is responsive and will scale down to mobile, at which point the image will be moved to the background. The form consists of various user inputs which are required to proceed. The user will be given directions regarding the correct formats for each input and will be informed if incorrect or missing. The form submit button will drive the user to the form complete page.
 
 ![Adopt a dog page](/documentation/features/adopt-a-dog-page.png)
 
@@ -325,21 +325,21 @@ The adopt a dog page is a page with a form on it, which allows the users to appl
 
 
 ## About us page
-The about us page has three main sections, about us, meet the team and our detail. The about us section is a small paragraph about the shelter. The meet the team section introduced the user to the team. It is purposefully light hearted, fun and promotes a sense of family. This is done in the effort to make the user trust us and feel comfortable. The final section, our details, is a google map link to the location of the shelter, the address, phone number and email. The google map is fully functional.
+The about us page has three main sections, about us, meet the team and our details. The about us section is a small paragraph about the shelter. The meet the team section introduces the user to the team. It is purposefully light hearted, fun and promotes a sense of family. This is done in the effort to make the user trust us and feel comfortable. The final section, our details, is a google map link to the location of the shelter, the address, phone number and email. The google map is fully functional.
 
 ![Adbout us ](/documentation/features/about-use-meet-team.png)
 
 ![about us 2](/documentation/features/about-use-meet-team2.png)
 
 ## Form complete page
-The form complete page is where the user is driven after the user completes an application to adopt a dog. It is used as feedback to let the user know the application has gone through. It is simply a page with an image, some text and a button to return home.
+The form complete page is where the user is driven after they complete an application to adopt a dog. It is used as feedback to let the user know the application has gone through. It is simply a page with an image, some text and a button to return home.
 
 ![Form complete](/documentation/features/form-complete.png)
 
 ![Form complete](/documentation/features/form-complete-mobile.png)
 
 ## 404 page
-The 404 page is the page the user will be directed to if they a page they try to visit doesn't exist. Again it is used as feedback to let the user know that something has gone wrong and provide them with a home button back to safety
+The 404 page is the page the user will be directed to if they try to visit a page that doesn't exist. Again it is used as feedback to let the user know that something has gone wrong and provide them with a home button back to safety
 
 ![404 page](/documentation/features/404-img.png)
 
@@ -350,9 +350,9 @@ The 404 page is the page the user will be directed to if they a page they try to
 In the future I would like to add the following features to the website,
 * Update the purpose of the website to include the possibility for people to surrender their dog for adoption, adding all the relevant pages forms etc. 
 * Add the ability for users to help Adopt-a-Dog Ireland by volunteering, donating, holding events etc.
-* Add a detailed help and advice section that the user could visit at all stages of the adoption process. This section would have subsection that would provide the user with relevant information and advice based on their stage in the adoption process (before, during, after)
-* Add a success stories / Gallery section to the website that showcases stories and images of adopted dogs and their happy owners. This purpose of this section would be to encourage potential dog adopters to undertake the adoption process by showing them how well it has worked for others.  
-* Add a Partners page demoing brands we trust, special offers etc.. I had planned to add this section during my initial design and wireframe stage but decided to remove it. I did do due to concerns over copyright infringement. The images I would need to use for this page would be copywritten. I spoke to my cohort facilitator who seemed to think it would be fine but my mentor advised against using copywritten material so I scrapped the page. 
+* Add a detailed help and advice section that the user could visit at all stages of the adoption process. This section would have subsections that would provide the user with relevant information and advice based on their stage in the adoption process (before, during, after).
+* Add a success stories / Gallery section to the website that showcases stories and images of adopted dogs and their happy owners. The purpose of this section would be to encourage potential dog adopters to undertake the adoption process by showing them how well it has worked for others.  
+* Add a Partners page promoting brands we trust, special offers etc.. I had planned to add this section during my initial design and wireframe stage but decided to remove it. I did this due to concerns over copyright infringement. The images I would need to use for this page would be copywritten. I spoke to my cohort facilitator who seemed to think it would be fine but my mentor advised against using copywritten material so I scrapped the page. 
 
 ## Accessibility
 I was conscious of accessibility throughout the entire website development process and took the following steps to ensure that the website would be as accessible as possible
@@ -383,20 +383,20 @@ I was conscious of accessibility throughout the entire website development proce
 ## Tools
 * [Color hex](https://www.color-hex.com/) was used to select the colour palette I used.
 * [Coolors](https://coolors.co/) was used to visualise colour palettes.
-* [Webaim](https://webaim.org/resources/contrastchecker/) was used to ensure color palete is compliant. 
+* [Webaim](https://webaim.org/resources/contrastchecker/) was used to ensure colour palette is compliant. 
 * [Google fonts](https://fonts.google.com/) was used to research and import fonts.
 * [Font joy](https://fontjoy.com/) was used to compare various fonts.
 * [Font awesome](https://fontawesome.com/) was used to import font icons.
 * [Chat GPT](https://openai.com/blog/chatgpt) was used to make font pairing suggestions and copy suggestions (copy was usually re-written by me).
-* [Pixabay](https://pixabay.com) was used as a source for images used on the website and imaged to create the website logo.
+* [Pixabay](https://pixabay.com) was used as a source for images used on the website and images to create the website logo.
 * [Tiny png](https://tinypng.com/) was used to compress images.
-* [Birme](https://www.birme.net) was used image formats and resize images.
+* [Birme](https://www.birme.net) was used to change image formats and resize images.
 * [Flex box froggy](https://flexboxfroggy.com/) was used to figure out flexbox. Excellent resource, highly recommended.
-* [Google](https://www.google.ie/), [Youtube](https://www.youtube.com/) and [wW3schools](https://www.w3schools.com) were used and throughout thewebsite development to help solve issues when stuck etc. 
-* [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
-* [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
-* [W3C HTML validator](https://validator.w3.org/nu/)
-* Google and firefox build in dev tools 
+* [Google](https://www.google.ie/), [Youtube](https://www.youtube.com/) and [wW3schools](https://www.w3schools.com) were used throughout the website development to help solve issues when stuck etc. 
+* [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) used to test the websites performance, accessibility etc.
+* [W3C CSS validator](https://jigsaw.w3.org/css-validator/) used to validate the CSS
+* [W3C HTML validator](https://validator.w3.org/nu/) used to validate the HTML
+* Google and firefox build in dev tools user to test and examine code
 
 [Return to Table of Contents](#table-of-contents)
 
@@ -449,7 +449,7 @@ The automated testing of the website HTML code was carried out using [Validator 
 * [max-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Fmax-profile.html)
 * [toby-profile.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2Ftoby-profile)
 
-The website CSS was validate using [W3C CSS validator](https://jigsaw.w3.org/css-validator/). The website passed with no errors or warnings and the test results can be seen below.
+The website CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/). The website passed with no errors or warnings and the test results can be seen below.
 [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgarydolan.github.io%2Fci-p1-adopt-a-dog-ireland%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Manual testiing
@@ -765,7 +765,7 @@ Mobile
 ### Owner / 
 * I want to test if the user can easily and intuitively use and navigate the website.
     * Navigation bar is the header is clear, easy to use, provides feedback and is in the same location site wide.
-* I want to test the site performance is good, with regards to responsiveness and load times.
+* I want to test that the site performance is good, with regards to responsiveness and load times.
     * Website performance testing has been excellent. 
 * I want to test that the Website accessibility is good.
     * Website accessibility was 100% in all tests on all pages.  
@@ -773,7 +773,7 @@ Mobile
     * Website was tested on various devices and at all sized using google dev tools. 
 * I want to test the websites feedback to the user regarding items that can be interacted with.
     * All items site wide supply the user with feedback in terms of colour changes, prompts, page changes etc.
-* I want to test that the user is give all necessary information regarding the adoption process.
+* I want to test that the user is given all necessary information regarding the adoption process.
     * This information is provided to the user on the first section of the first page
 * I want to test if the user can browse a catalogue of dogs available for adoption at the shelter.
     * This is an option in the navigation menu and is displayed on the home page. Functionality of the prev and next buttons also means user can quickly move from profile to profile.
@@ -814,7 +814,7 @@ Mobile
 During the automated testing various errors were found on the website, all errors were fixed.
 
 Index page
-* Errors were shown as I had placed buttons inside of anchor elements on the main page. This mistake was made as I wanted to use the styling of the button. This issue was fixed by removing the butting and adding style rules to the anchor elements directly. Fixed in commit #86 “Fix error where buttons were placed in a elements”
+* Errors were shown as I had placed buttons inside of anchor elements on the main page. This mistake was made as I wanted to use the styling of the button. This issue was fixed by removing the button and adding style rules to the anchor elements directly. Fixed in commit #86 “Fix error where buttons were placed in a elements”
 * Warning were shown as I had misused h2 element, section element and h1 elements. These were all fixed in commit 87, “Fix index html warnings from html validator”
 
 404 & form complete page
