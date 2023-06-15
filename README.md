@@ -1,5 +1,5 @@
 # Adopt-a-Dog Ireland
-The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog from a dog shelter in Ireland.
+The Adopt-a-Dog Ireland website was designed to allow the user to Adopt-a-Dog from a dog shelter in Ireland.
 
 ![Preview of website on various devices](documentation/responsive-design-screenshot.png)
 
@@ -58,7 +58,7 @@ The Adopt-a-Dog Ireland website was designed to allows the user to Adopt-a-Dog f
 # User Experience
 
 ## Initial Discussion
-Adopt-a-Dog Ireland is a website that I (Gary Dolan) developed for my first project as part of Code Institutes Diploma in Full Stack Software Development. The websites target audience is people interested in adopting a dog in Ireland. It was designed to allow prospective dog adopters to browser a catalogue of adoptable dogs. The website will provide the user with all the adoptable dogs details and also guide the user through the adoption process. It will allow the user to apply to adopt a dog of their choice.
+Adopt-a-Dog Ireland is a website that I (Gary Dolan) developed for my first project as part of Code Institutes Diploma in Full Stack Software Development. The websites target audience is people interested in adopting a dog in Ireland. It was designed to allow prospective dog adopters to browse a catalogue of adoptable dogs. The website will provide the user with all the adoptable dogs details and also guide the user through the adoption process. It will allow the user to apply to adopt a dog of their choice.
 
 ## User stories
 
@@ -777,7 +777,7 @@ Mobile
     * This information is provided to the user on the first section of the first page
 * I want to test if the user can browse a catalogue of dogs available for adoption at the shelter.
     * This is an option in the navigation menu and is displayed on the home page. Functionality of the prev and next buttons also means user can quickly move from profile to profile.
-* I want to test that the user can apply to adop a dog.
+* I want to test that the user can apply to adopt a dog.
     * Application form is accessible directly from the navigation bar or from any dogs profile
 * I want to test that the user has access to our contact details and social network links.
     * This is available to the user in the footer section, which is on every page on the site
@@ -786,7 +786,7 @@ Mobile
 * 
 ### New user
 * I want to view dogs that are available for adoption.
-    * Avalable on the first page of website and from navigation bar.
+    * Available on the first page of website and from navigation bar.
 * I want to get a feel for the dogs personalities and know their details.
     * Profile gives full dog details and a paragraph about them.
 * I want to understand how to adopt a dog.
@@ -827,7 +827,7 @@ Adopt-a-dog
 * Error flagged around the use of legend in a fieldset, issue with it being inside a div. Error also flagged for using the required attribute on a submit type input. Warnings about headings. All fixed in commit #91 . Fix wc3 error and warnings for adopt a dog html page
 
 Dog profile html files (x10)
-* Errors flagged using button as a desendand of anchor element. Warning regarding headings. Fixed all in commit #92. Fix wc3 errors and warning for all dog profile pages
+* Errors flagged using button as a descendant of anchor element. Warning regarding headings. Fixed all in commit #92. Fix wc3 errors and warning for all dog profile pages
 
 CSS
 * One error found, forgot to include unit after number in a font size declaration. Fixed issue on form complete and 404 page.
@@ -838,7 +838,7 @@ CSS
 
 # Design & Development issues
 ## Index page issue
-During my initial design of the index page I designed the how it works section to contain a heading and 3 divs. Each of these divs would hold 2 icons and 2 paragraphs and would be distributed evenly across the page. Although this did work perfectly, I realised when starting to design my next section of the index page(browser our dogs) that the design of the how it works section would be extremely hard to scale correctly. The main issue would be that the 6 icons and 6 accompanying paragraphs needed to be in a specific order. To do this I completely redesigned the section using 6 individual divs containing only 1 icon and 1 paragraph. This was done in commit #13.
+During my initial design of the index page, I designed the how it works section to contain a heading and 3 divs. Each of these divs would hold 2 icons and 2 paragraphs and would be distributed evenly across the page. Although this did work perfectly, I realised when starting to design my next section of the index page(browser our dogs) that the design of the how it works section would be extremely hard to scale correctly. The main issue would be that the 6 icons and 6 accompanying paragraphs needed to be in a specific order. To do this I completely redesigned the section using 6 individual divs containing only 1 icon and 1 paragraph. This was done in commit #13.
 
 ## Dog profile page issue
 During my design of the dog profile page I originally followed the design I set out in my wireframes, with the image on the right and content on the left. When making the page responsive I found I needed to reverse the order as when changing to a column style the picture of the dog was placed beneath the content.   
@@ -853,7 +853,7 @@ When creating my About us page I had initially created wireframes to use as a gu
 # Credits
 https://petmatch.ie/ Which inspired my design of my how it works section and dog profile page.
 ## Copy
-Partial copy on this website was written by chat GPT. Copy was usually heavly modified by myself or written by me first and pass to chat GPT which was prompted to add to my copy.
+Partial copy on this website was written by chat GPT. Copy was usually heavily modified by myself or written by me first and pass to chat GPT which was prompted to add to my copy.
 ## Images
 
 * [Dog 1 Image](https://pixabay.com/photos/golden-retriever-dog-pet-canine-4292254/) by [dnlrmrzsnz](https://pixabay.com/users/dnlrmrzsnz-1896203/)
