@@ -268,12 +268,14 @@ The website contains 15 pages in total. There is one home page, an adopt a dog p
 The header is a common feature accross every page on the website. It consists of a custom log containing an image and text and the navigation section. The custom logo is clickable and will return the user to the home page regardless of where on the site they are. The navigation section has four main linke, Home, Dog profiles, Adopt a dog and about us. Each link will drive the user to the corrisponding section of the website. The nav bar also contains some user feedback, as the user hovers over any item it will change color and become underlined. 
 
 ![Image of the header](/documentation/features/header.png)
+
 ![Image of the header mobile](/documentation/features/header-mobile.png)
 
 ### Footer
 The footer is also a feature that is common accros all pages of the website. The footer holds icon links to all of the different social networking platforms as well as a copyright. The icons are a deep yellow colour to draw the users attention. All icons in the footer also provide feedback to the user and change colour to indicate they are clickable. when clicked the links will open in new tabs to ensure the user still has access to our website.
 
 ![Image of the footer](/documentation/features/footer.png)
+
 ![Image of the footer mobile](/documentation/features/footer-mobile.png)
 
 ## Home page
@@ -283,22 +285,57 @@ The home page consists of a hero image and two sections, they are the how it wor
 The hero image is a large image that acts as a banner for the page. The image is of a young girl, lovingly looking at and petting her dog. The dog in the picture also looks very happy. The image is suppose to bolster a sense of positivity about the website and dog adoption process. The hero image also have an animation attached to it and the image will zoom in 10% when the page loads. On mobile the hero image will be switch to a smaller image. 
 
 ![Image of the hero image](/documentation/features/home-hero-image.png)
+
 ![Image of the hero image mobile](/documentation/features/home-hero-image-mobile.png)
 
 ### How it works
+The how it works sections purpose is to explain to the user how the process of dog adoption is carried out and the steps that are involved. The section uses bright eye catching icons to draw the users attention. There are six icons which indiate without having to read what the steps will be. Each icon is accompanies by a small piece of text explaining that step. 
 
+![how it works section](/documentation/features/home-how-it-works.png)
+
+![how it works section mobile](/documentation/features/home-how-it-works-mobile.png)
 ### Browse our dogs
+The second section of the home page is the browse our dogs section. To create a good user experience we want the user to get to dog, as it is the reason they are here. The section consists of ten dog images arranged neatly in rows and columns. The pictures are circular, which is common accross the website. Under each dogs picture is a button which allows the user to visit the dogs profile which clicked. The button design is a burned orange colour which stand out from all the other site colours as a call to action. It will also provide feedback to the user on hover, changing background, text and border colours. This button is again consistant accross the website.
 
+![browse our dogs section](/documentation/features/home-browse-our-dogs.png)
+
+![browse our dogs section mobile](/documentation/features/home-browse-our-dogs-mobile.png)
 
 ## Dog profile pages
+The purpose of the dog profile page is to allow the user to learn a little more about the dogs before they make their decisions. It consists of a larger banner with the dogs name, an image of the dog, the dog details and a button saying adopt me. When pressed it will drive the user to the adopt a dog page when pressed. The page also has prev and next buttons to allow the user to browse through the dogs without leaving the page. 
+
+![Dog profile](/documentation/features/dog-profile.png)
+
+![Dog profile mobile](/documentation/features/dog-profile-mobile.png)
+
 ## Adopt a dog page
+The adopt a dog page is a page with a form on it, which allows the users to apply to adop a dog. It is responsive and will scale down mobile, at which point the image will be moved to the background. The form consists of various user imputs which are require to proceed. The user will be given direction of the correct formatts for each input and wil be informed if incorrect or missing. The form submit button will drive the user to the form complete page.
+
+![Adopt a dog page](/documentation/features/adopt-a-dog-page.png)
+
+![Adopt a dog page mobile](/documentation/features/adopt-a-dog-page-mobile.png)
+
 
 ## About us page
+The about us page has three main sections, about us, meet the team and our detail. The about us section is a small paragraph about the shelter. The meet the team section introduced the user to the team. It is purposefully light hearted, fun and promotes a a sense of family. This is done in the efort to make the user trust us and feel comfortable. The final section, our details, is a google map link to the location of the shelter, the address, phone number and email. The google map is fully functional.
+
+![Adbout us ](/documentation/features/about-use-meet-team.png)
+
+![about us 2](/documentation/features/about-use-meet-team2.png)
 
 ## Form complete page
+The form complete page is where the user is driven after the user completes an application to addopt a dog. It is used as feedback to let the user know the application has gone through. It is simply a page with an image, some text and a button to return home.
+
+![Form complete](/documentation/features/form-complete.png)
+
+![Form complete](/documentation/features/form-complete-mobile.png)
 
 ## 404 page
+The 404 page is the page the user will be directed to if they a page they try to visit doesnt exist. Again it is used as feedback to let the user know that something has gone wrong and provide them with a home button back to safety
 
+![404 page](/documentation/features/404-img.png)
+
+![404 page](/documentation/features/404-img-mobile.png)
 
 
 ## Future implementations
