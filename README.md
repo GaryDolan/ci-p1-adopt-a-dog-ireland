@@ -138,6 +138,7 @@ The fonts were selected with accessibility and ease of use in mind. All fonts we
 ## Icon creation
 I decided that I wanted to create a custom icon for the website. I used two silhouettes from [Pixabay](https://pixabay.com/) specifically [this one](https://pixabay.com/vectors/home-black-house-building-simple-155128/) and [this one](https://pixabay.com/illustrations/silhouette-dog-animal-pet-simple-313610/). I then modified these images to create my logo using Inkscape, a fee open-source vector graphics editor.
 
+![Custom Icon](/documentation/Logo.png)
 
 ## Imagery
 All imagery for the website was taken from [Pixabay](https://pixabay.com). They were cut, resized and formats changed as required. With the exception of the 404 page image (which was purposely selected to look sad) all the image for the website were picked to convey happiness, fun and excite the user about the prospect of adopting a dog.
